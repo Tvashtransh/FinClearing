@@ -4,7 +4,8 @@
   "description": "Slick professional landing page for FinClearing.in",
   "main": "server.js",
   "scripts": {
-    "dev": "node server.js"
+    "dev": "node server.js",
+    "build": "echo Static build complete"
   },
   "keywords": [],
   "author": "",

@@ -1,0 +1,12 @@
+{
+  "name": "finclearing-landing",
+  "version": "1.0.0",
+  "description": "Slick professional landing page for FinClearing.in",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

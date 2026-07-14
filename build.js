@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const filesToCopy = ['index.html', 'styles.css', 'app.js', 'finclearing_logo.png'];
+const filesToCopy = ['index.html', 'styles.css', 'app.js', 'apiexplore_logo.png'];
 const distDir = path.join(__dirname, 'dist');
 
 if (!fs.existsSync(distDir)) {

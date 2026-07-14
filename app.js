@@ -1,4 +1,4 @@
-// FinClearing Landing Page Interactive Behaviors
+// APIExplore Landing Page Interactive Behaviors
 
 document.addEventListener("DOMContentLoaded", () => {
   

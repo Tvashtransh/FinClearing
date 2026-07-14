@@ -1,7 +1,7 @@
 {
-  "name": "finclearing-landing",
+  "name": "apiexplore-landing",
   "version": "1.0.0",
-  "description": "Slick professional landing page for FinClearing.in",
+  "description": "Slick professional landing page for APIExplore",
   "main": "server.js",
   "scripts": {
     "dev": "node server.js",

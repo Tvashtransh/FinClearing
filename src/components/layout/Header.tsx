@@ -13,18 +13,19 @@ export default function Header() {
     <header className="sticky top-0 z-50 border-b border-zinc-800/60 bg-brand-obsidian/80 backdrop-blur-xl">
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-3 group">
-          <div className="h-10 w-10 rounded-xl overflow-hidden border border-zinc-700/60 shadow-lg group-hover:border-zinc-500 transition-all duration-300 flex items-center justify-center bg-white relative">
-            <Image src="/apiexplore_icon.png" alt="APIExplore Logo" fill className="object-contain p-1" />
+        <Link href="/" className="flex flex-col items-center gap-1.5 group mt-1">
+          <div className="h-9 w-9 rounded-xl overflow-hidden border border-zinc-700/60 shadow-lg group-hover:border-zinc-500 transition-all duration-300 flex items-center justify-center bg-white relative">
+            {/* Zoom into the icon to hide the embedded text */}
+            <Image 
+              src="/apiexplore_icon.png" 
+              alt="APIExplore Logo" 
+              fill 
+              className="object-cover scale-[1.7] origin-top translate-y-1" 
+            />
           </div>
-          <div className="flex flex-col">
-            <span className="text-lg font-bold tracking-tight text-white leading-none">
-              API<span className="text-blue-500">Explore</span>
-            </span>
-            <span className="text-[9px] text-zinc-500 font-semibold tracking-[0.2em] uppercase mt-0.5">
-              Infrastructure
-            </span>
-          </div>
+          <span className="text-[10px] font-extrabold tracking-widest text-white uppercase leading-none">
+            APIExplore
+          </span>
         </Link>
 
         {/* Desktop Links */}

@@ -7,11 +7,16 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-12">
         {/* Brand & Copyright */}
         <div className="space-y-4">
-          <div className="flex items-center gap-2.5">
+          <div className="flex flex-col gap-2">
             <div className="h-8 w-8 rounded-lg overflow-hidden border border-zinc-800 flex items-center justify-center bg-white relative">
-              <Image src="/apiexplore_icon.png" alt="APIExplore Logo" fill className="object-contain p-1" />
+              <Image 
+                src="/apiexplore_icon.png" 
+                alt="APIExplore Logo" 
+                fill 
+                className="object-cover scale-[1.7] origin-top translate-y-1" 
+              />
             </div>
-            <span className="text-sm font-bold text-white tracking-tight">API<span className="text-blue-500">Explore</span></span>
+            <span className="text-sm font-extrabold tracking-widest text-white uppercase">APIExplore</span>
           </div>
           <p className="font-light leading-relaxed">
             The sovereign ledger infrastructure for high-scale loan distribution networks, expanded into a complete developer marketplace for APIs and Hosting.

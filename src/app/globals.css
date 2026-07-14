@@ -1,4 +1,16 @@
-/* DSACore Landing Page Premium Styles overrides */
+@import "tailwindcss";
+
+@theme {
+  --color-brand-obsidian: #09090b;
+  --color-brand-zincdark: #18181b;
+  --color-brand-gold: #D4AF37;
+  --color-brand-bronze: #A3704C;
+  --color-brand-platinum: #E5E4E2;
+  --color-brand-accent: #3b82f6;
+
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+  --font-serif: "Playfair Display", serif;
+}
 
 @layer utilities {
   .bg-grid-mesh {
@@ -6,12 +18,24 @@
     background-size: 24px 24px;
   }
   
+  .bg-grid-pattern {
+    background-image: radial-gradient(circle, rgba(63,63,70,0.15) 1px, transparent 1px);
+  }
+
   .glow-gold {
     box-shadow: 0 0 40px -10px rgba(212, 175, 55, 0.15);
   }
   
   .glow-blue {
     box-shadow: 0 0 50px -10px rgba(59, 130, 246, 0.2);
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 0.2s ease-out forwards;
+  }
+  
+  .animate-zoom-in {
+    animation: zoomIn 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
   }
 }
 
@@ -49,7 +73,6 @@ input[type="range"]::-webkit-slider-thumb:hover {
   background: #3b82f6;
 }
 
-/* Fade animations for modals */
 @keyframes fadeIn {
   from { opacity: 0; }
   to { opacity: 1; }
@@ -60,10 +83,11 @@ input[type="range"]::-webkit-slider-thumb:hover {
   to { transform: scale(1); opacity: 1; }
 }
 
-.animate-fade-in {
-  animation: fadeIn 0.2s ease-out forwards;
+:root {
+  color-scheme: dark;
 }
 
-.animate-zoom-in {
-  animation: zoomIn 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+body {
+  background-color: var(--color-brand-obsidian);
+  color: #f4f4f5; /* zinc-100 */
 }

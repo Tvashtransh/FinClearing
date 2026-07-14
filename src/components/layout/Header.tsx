@@ -15,7 +15,7 @@ export default function Header() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3 group">
           <div className="h-10 w-10 rounded-xl overflow-hidden border border-zinc-700/60 shadow-lg group-hover:border-zinc-500 transition-all duration-300 flex items-center justify-center bg-white relative">
-            <Image src="/apiexplore_logo.png" alt="APIExplore Logo" fill className="object-contain p-1" />
+            <Image src="/apiexplore_icon.png" alt="APIExplore Logo" fill className="object-contain p-1" />
           </div>
           <div className="flex flex-col">
             <span className="text-lg font-bold tracking-tight text-white leading-none">

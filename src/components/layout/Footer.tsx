@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="space-y-4">
           <div className="flex items-center gap-2.5">
             <div className="h-8 w-8 rounded-lg overflow-hidden border border-zinc-800 flex items-center justify-center bg-white relative">
-              <Image src="/apiexplore_logo.png" alt="APIExplore Logo" fill className="object-contain p-1" />
+              <Image src="/apiexplore_icon.png" alt="APIExplore Logo" fill className="object-contain p-1" />
             </div>
             <span className="text-sm font-bold text-white tracking-tight">API<span className="text-blue-500">Explore</span></span>
           </div>

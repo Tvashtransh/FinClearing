@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import { ArrowLeft, CheckCircle, Clock, Code, Key, Terminal, Shield, BookOpen, Stack } from "@phosphor-icons/react/dist/ssr";
 

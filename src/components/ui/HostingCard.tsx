@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import { HardDrives, Lightning, Shield, Check } from "@phosphor-icons/react/dist/ssr";
 

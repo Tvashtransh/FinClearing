@@ -1,3 +1,5 @@
+"use client";
+
 import Hero from "@/components/home/Hero";
 import TrustedBy from "@/components/home/TrustedBy";
 import CategoryCard from "@/components/ui/CategoryCard";

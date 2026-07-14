@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import APICard from "@/components/ui/APICard";
-import { Search, Filter, SlidersHorizontal } from "lucide-react";
+import { MagnifyingGlass, Funnel, SlidersHorizontal } from "@phosphor-icons/react";
 
 // Mock data for APIs
 const ALL_APIS = [
@@ -45,11 +45,11 @@ export default function APIHub() {
           <div className="lg:col-span-1 space-y-8">
             <div>
               <h3 className="text-xs font-bold uppercase tracking-widest text-zinc-500 mb-4 flex items-center gap-2">
-                <SlidersHorizontal className="w-4 h-4" /> Filters
+                <SlidersHorizontal weight="duotone" className="w-4 h-4" /> Filters
               </h3>
               
               <div className="relative mb-6">
-                <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-zinc-500" />
+                <MagnifyingGlass weight="duotone" className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-zinc-500" />
                 <input 
                   type="text" 
                   placeholder="Search APIs..." 
@@ -107,7 +107,7 @@ export default function APIHub() {
 
             {filteredApis.length === 0 && (
               <div className="text-center py-20 bg-zinc-950/50 rounded-2xl border border-zinc-900 border-dashed">
-                <Search className="w-10 h-10 text-zinc-700 mx-auto mb-4" />
+                <MagnifyingGlass weight="duotone" className="w-10 h-10 text-zinc-700 mx-auto mb-4" />
                 <h4 className="text-lg font-semibold text-white mb-2">No APIs found</h4>
                 <p className="text-zinc-500 text-sm">Try adjusting your search or filters.</p>
               </div>

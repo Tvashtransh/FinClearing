@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Server, Zap, Shield, Check } from "lucide-react";
+import { HardDrives, Lightning, Shield, Check } from "@phosphor-icons/react";
 
 interface HostingCardProps {
   title: string;
@@ -38,7 +38,7 @@ export default function HostingCard({
         <ul className="space-y-4">
           {features.map((feature, idx) => (
             <li key={idx} className="flex items-start gap-3">
-              <Check className="w-4 h-4 text-blue-500 mt-0.5 shrink-0" />
+              <Check weight="duotone" className="w-4 h-4 text-blue-500 mt-0.5 shrink-0" />
               <span className="text-sm text-zinc-300 font-light">{feature}</span>
             </li>
           ))}

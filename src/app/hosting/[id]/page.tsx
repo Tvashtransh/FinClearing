@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowLeft, Cpu, HardDrive, Network, Shield, Settings, Zap } from "lucide-react";
+import { ArrowLeft, Cpu, HardDrive, ShareNetwork, Shield, Gear, Lightning } from "@phosphor-icons/react";
 
 export default async function HostingDetails({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
@@ -14,7 +14,7 @@ export default async function HostingDetails({ params }: { params: Promise<{ id:
         <div className="absolute inset-0 bg-blue-900/5"></div>
         <div className="max-w-7xl mx-auto px-6 relative z-10">
           <Link href="/hosting" className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-zinc-500 hover:text-white transition-colors mb-8">
-            <ArrowLeft className="w-4 h-4" /> Back to Hosting
+            <ArrowLeft weight="duotone" className="w-4 h-4" /> Back to Hosting
           </Link>
 
           <div className="flex flex-col lg:flex-row gap-12 items-start justify-between">
@@ -32,7 +32,7 @@ export default async function HostingDetails({ params }: { params: Promise<{ id:
                   Deploy Now
                 </button>
                 <button className="px-6 py-3 rounded-xl text-sm font-bold tracking-wider text-white bg-zinc-900 border border-zinc-700 hover:bg-zinc-800 transition-all uppercase flex items-center gap-2">
-                  <Settings className="w-4 h-4" /> Customize Specs
+                  <Gear weight="duotone" className="w-4 h-4" /> Customize Specs
                 </button>
               </div>
             </div>
@@ -46,25 +46,25 @@ export default async function HostingDetails({ params }: { params: Promise<{ id:
               <div className="space-y-4">
                 <div className="flex justify-between items-center">
                   <div className="flex items-center gap-2 text-zinc-400">
-                    <Cpu className="w-4 h-4" /> <span className="text-sm">Compute</span>
+                    <Cpu weight="duotone" className="w-4 h-4" /> <span className="text-sm">Compute</span>
                   </div>
                   <span className="text-sm font-mono text-white">8 vCPU / 16GB RAM</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <div className="flex items-center gap-2 text-zinc-400">
-                    <HardDrive className="w-4 h-4" /> <span className="text-sm">Storage</span>
+                    <HardDrive weight="duotone" className="w-4 h-4" /> <span className="text-sm">Storage</span>
                   </div>
                   <span className="text-sm font-mono text-white">250GB NVMe SSD</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <div className="flex items-center gap-2 text-zinc-400">
-                    <Network className="w-4 h-4" /> <span className="text-sm">Bandwidth</span>
+                    <ShareNetwork weight="duotone" className="w-4 h-4" /> <span className="text-sm">Bandwidth</span>
                   </div>
                   <span className="text-sm font-mono text-white">5TB Outbound</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <div className="flex items-center gap-2 text-zinc-400">
-                    <Shield className="w-4 h-4" /> <span className="text-sm">Protection</span>
+                    <Shield weight="duotone" className="w-4 h-4" /> <span className="text-sm">Protection</span>
                   </div>
                   <span className="text-sm font-mono text-white">DDoS Mitigated</span>
                 </div>
@@ -79,14 +79,14 @@ export default async function HostingDetails({ params }: { params: Promise<{ id:
         <h2 className="text-2xl font-bold text-white mb-12">Infrastructure Features</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="bg-zinc-900/40 border border-zinc-800 rounded-xl p-8">
-            <Zap className="w-8 h-8 text-blue-500 mb-6" />
+            <Lightning weight="duotone" className="w-8 h-8 text-blue-500 mb-6" />
             <h3 className="text-xl font-bold text-white mb-3">Instant Provisioning</h3>
             <p className="text-zinc-400 font-light leading-relaxed">
               Your {hostingName} environment is provisioned and ready for SSH access in under 45 seconds. Pre-configured with Docker and Kubernetes tools.
             </p>
           </div>
           <div className="bg-zinc-900/40 border border-zinc-800 rounded-xl p-8">
-            <Shield className="w-8 h-8 text-blue-500 mb-6" />
+            <Shield weight="duotone" className="w-8 h-8 text-blue-500 mb-6" />
             <h3 className="text-xl font-bold text-white mb-3">Enterprise Security</h3>
             <p className="text-zinc-400 font-light leading-relaxed">
               VPC isolation, hardware-level security keys, and SOC2 compliant data centers ensure your intellectual property remains secure.

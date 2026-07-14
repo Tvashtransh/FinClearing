@@ -4,7 +4,7 @@ import CategoryCard from "@/components/ui/CategoryCard";
 import APICard from "@/components/ui/APICard";
 import HostingCard from "@/components/ui/HostingCard";
 import FeatureGrid from "@/components/ui/FeatureGrid";
-import { Building2, Landmark, Fingerprint, Search, ShieldCheck, CreditCard, Rocket, Server, Shield, Activity, Globe } from "lucide-react";
+import { Buildings, Bank, Fingerprint, MagnifyingGlass, ShieldCheck, CreditCard, Rocket, HardDrives, Shield, Activity, Globe } from "@phosphor-icons/react";
 import Link from "next/link";
 
 export default function Home() {
@@ -29,25 +29,25 @@ export default function Home() {
           <CategoryCard 
             title="Banking & Finance" 
             count={24} 
-            icon={<Landmark className="h-6 w-6" />} 
+            icon={<Bank weight="duotone" className="h-6 w-6" />} 
             href="/apis/banking" 
           />
           <CategoryCard 
             title="Identity & KYC" 
             count={12} 
-            icon={<Fingerprint className="h-6 w-6" />} 
+            icon={<Fingerprint weight="duotone" className="h-6 w-6" />} 
             href="/apis/verification" 
           />
           <CategoryCard 
             title="Payments" 
             count={18} 
-            icon={<CreditCard className="h-6 w-6" />} 
+            icon={<CreditCard weight="duotone" className="h-6 w-6" />} 
             href="/apis/payments" 
           />
           <CategoryCard 
             title="Data OCR & AI" 
             count={9} 
-            icon={<Search className="h-6 w-6" />} 
+            icon={<MagnifyingGlass weight="duotone" className="h-6 w-6" />} 
             href="/apis/ai" 
           />
         </div>
@@ -170,22 +170,22 @@ export default function Home() {
               {
                 title: "99.99% Uptime SLA",
                 description: "Financially backed SLAs ensure your infrastructure never goes down during peak traffic.",
-                icon: <Activity className="h-6 w-6" />
+                icon: <Activity weight="duotone" className="h-6 w-6" />
               },
               {
                 title: "Global CDN",
                 description: "Deliver API responses in milliseconds with our heavily distributed edge network.",
-                icon: <Globe className="h-6 w-6" />
+                icon: <Globe weight="duotone" className="h-6 w-6" />
               },
               {
                 title: "Enterprise Security",
                 description: "AES-256 encryption, SOC2 Type II compliance, and isolated data vaults.",
-                icon: <Shield className="h-6 w-6" />
+                icon: <Shield weight="duotone" className="h-6 w-6" />
               },
               {
                 title: "Scalable Infrastructure",
                 description: "Auto-scale from zero to millions of requests without manual intervention.",
-                icon: <Rocket className="h-6 w-6" />
+                icon: <Rocket weight="duotone" className="h-6 w-6" />
               }
             ]}
           />

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Activity, Clock, CheckCircle2 } from "lucide-react";
+import { Activity, Clock, CheckCircle } from "@phosphor-icons/react";
 
 interface APICardProps {
   name: string;
@@ -39,14 +39,14 @@ export default function APICard({
         <div className="grid grid-cols-2 gap-3 mb-6 relative z-10">
           <div className="bg-zinc-900/50 p-2.5 rounded-lg border border-zinc-800/50">
             <div className="flex items-center gap-1.5 text-zinc-500 mb-1">
-              <Clock className="w-3 h-3" />
+              <Clock weight="duotone" className="w-3 h-3" />
               <span className="text-[9px] uppercase tracking-wider font-semibold">Latency</span>
             </div>
             <span className="text-sm font-mono text-white">{responseTime}</span>
           </div>
           <div className="bg-zinc-900/50 p-2.5 rounded-lg border border-zinc-800/50">
             <div className="flex items-center gap-1.5 text-zinc-500 mb-1">
-              <CheckCircle2 className="w-3 h-3" />
+              <CheckCircle weight="duotone" className="w-3 h-3" />
               <span className="text-[9px] uppercase tracking-wider font-semibold">Success</span>
             </div>
             <span className="text-sm font-mono text-emerald-400">{successRate}</span>

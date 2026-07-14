@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight } from "@phosphor-icons/react";
 
 export default function Hero() {
   return (
@@ -24,7 +24,7 @@ export default function Hero() {
           <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 pt-4">
             <Link href="/apis" className="px-8 py-4 rounded-xl text-sm font-bold tracking-wider text-black bg-white hover:bg-zinc-200 transition-all duration-200 uppercase flex items-center justify-center gap-2 shadow-lg shadow-white/5">
               <span>Explore APIs</span>
-              <ArrowUpRight className="h-4 w-4" />
+              <ArrowUpRight weight="duotone" className="h-4 w-4" />
             </Link>
             <Link href="/hosting" className="px-8 py-4 rounded-xl text-sm font-bold tracking-wider text-zinc-300 hover:text-white bg-zinc-900/60 border border-zinc-800 hover:border-zinc-700 transition-all duration-200 uppercase flex items-center justify-center gap-2">
               <span>View Hosting Plans</span>

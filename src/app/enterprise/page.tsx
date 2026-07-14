@@ -1,12 +1,12 @@
 import Link from "next/link";
-import { Building2 } from "lucide-react";
+import { Buildings } from "@phosphor-icons/react";
 
 export default function EnterprisePage() {
   return (
     <div className="bg-brand-obsidian min-h-screen pt-24 pb-24 flex items-center justify-center">
       <div className="text-center space-y-6 max-w-2xl mx-auto px-6">
         <div className="mx-auto w-16 h-16 rounded-2xl bg-zinc-900 border border-zinc-800 flex items-center justify-center text-blue-500 mb-8">
-          <Building2 className="w-8 h-8" />
+          <Buildings weight="duotone" className="w-8 h-8" />
         </div>
         <h1 className="text-4xl md:text-5xl font-extrabold text-white tracking-tight">Enterprise Solutions</h1>
         <p className="text-lg text-zinc-400 font-light leading-relaxed">

@@ -1,6 +1,6 @@
 "use client";
 
-import { Mail } from "lucide-react";
+import { Envelope } from "@phosphor-icons/react";
 
 export default function ContactPage() {
   return (
@@ -8,7 +8,7 @@ export default function ContactPage() {
       <div className="max-w-3xl mx-auto px-6">
         <div className="text-center space-y-6 mb-16">
           <div className="mx-auto w-16 h-16 rounded-2xl bg-zinc-900 border border-zinc-800 flex items-center justify-center text-blue-500 mb-8">
-            <Mail className="w-8 h-8" />
+            <Envelope weight="duotone" className="w-8 h-8" />
           </div>
           <h1 className="text-4xl md:text-5xl font-extrabold text-white tracking-tight">Contact Sales</h1>
           <p className="text-lg text-zinc-400 font-light leading-relaxed">

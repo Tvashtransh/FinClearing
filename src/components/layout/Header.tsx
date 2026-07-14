@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Menu, X, Search } from "lucide-react";
+import { List, X, MagnifyingGlass } from "@phosphor-icons/react";
 
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -43,7 +43,7 @@ export default function Header() {
             onClick={() => setIsSearchOpen(true)}
             className="p-2 rounded-lg text-zinc-400 hover:text-white hover:bg-zinc-800 transition-all duration-200"
           >
-            <Search className="h-5 w-5" />
+            <MagnifyingGlass weight="duotone" className="h-5 w-5" />
           </button>
           <Link href="/contact" className="px-5 py-2.5 rounded-lg text-xs font-semibold tracking-wider text-black bg-white border border-transparent hover:bg-zinc-200 transition-all duration-200 uppercase">
             Start Building
@@ -56,13 +56,13 @@ export default function Header() {
             onClick={() => setIsSearchOpen(true)}
             className="p-2 rounded-lg text-zinc-400 hover:text-white hover:bg-zinc-800 transition-all duration-200"
           >
-            <Search className="h-5 w-5" />
+            <MagnifyingGlass weight="duotone" className="h-5 w-5" />
           </button>
           <button 
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} 
             className="p-2 rounded-lg text-zinc-400 hover:text-white hover:bg-zinc-900 transition-all"
           >
-            {isMobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+            {isMobileMenuOpen ? <X weight="duotone" className="h-6 w-6" /> : <List weight="duotone" className="h-6 w-6" />}
           </button>
         </div>
       </div>
@@ -89,7 +89,7 @@ export default function Header() {
         <div className="fixed inset-0 z-[100] flex items-start justify-center pt-24 bg-black/80 backdrop-blur-sm animate-fade-in" onClick={() => setIsSearchOpen(false)}>
           <div className="w-full max-w-2xl bg-zinc-900 border border-zinc-800 rounded-xl shadow-2xl overflow-hidden mx-4 animate-zoom-in" onClick={(e) => e.stopPropagation()}>
             <div className="flex items-center px-4 py-3 border-b border-zinc-800">
-              <Search className="h-5 w-5 text-zinc-500 mr-3" />
+              <MagnifyingGlass weight="duotone" className="h-5 w-5 text-zinc-500 mr-3" />
               <input 
                 type="text" 
                 placeholder="Search APIs, hosting, docs..." 

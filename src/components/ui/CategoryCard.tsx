@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight } from "@phosphor-icons/react";
 
 interface CategoryCardProps {
   title: string;
@@ -24,7 +24,7 @@ export default function CategoryCard({ title, count, icon, href }: CategoryCardP
         
         <div className="relative z-10 mt-6 flex items-center justify-between">
           <h4 className="text-lg font-semibold text-white group-hover:text-zinc-200 transition-colors">{title}</h4>
-          <ArrowRight className="h-4 w-4 text-zinc-600 group-hover:text-blue-400 transition-colors transform group-hover:translate-x-1" />
+          <ArrowRight weight="duotone" className="h-4 w-4 text-zinc-600 group-hover:text-blue-400 transition-colors transform group-hover:translate-x-1" />
         </div>
       </div>
     </Link>

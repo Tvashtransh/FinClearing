@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowLeft, CheckCircle2, Clock, Code2, Key, Terminal, Shield, BookOpen, Layers } from "lucide-react";
+import { ArrowLeft, CheckCircle, Clock, Code, Key, Terminal, Shield, BookOpen, Stack } from "@phosphor-icons/react";
 
 export default async function APIDetails({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
@@ -14,7 +14,7 @@ export default async function APIDetails({ params }: { params: Promise<{ id: str
         <div className="absolute inset-0 bg-blue-900/5"></div>
         <div className="max-w-7xl mx-auto px-6 relative z-10">
           <Link href="/apis" className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-zinc-500 hover:text-white transition-colors mb-8">
-            <ArrowLeft className="w-4 h-4" /> Back to Hub
+            <ArrowLeft weight="duotone" className="w-4 h-4" /> Back to Hub
           </Link>
 
           <div className="flex flex-col lg:flex-row gap-12 items-start justify-between">
@@ -32,7 +32,7 @@ export default async function APIDetails({ params }: { params: Promise<{ id: str
                   Get API Key
                 </button>
                 <button className="px-6 py-3 rounded-xl text-sm font-bold tracking-wider text-white bg-zinc-900 border border-zinc-700 hover:bg-zinc-800 transition-all uppercase flex items-center gap-2">
-                  <BookOpen className="w-4 h-4" /> Read Docs
+                  <BookOpen weight="duotone" className="w-4 h-4" /> Read Docs
                 </button>
               </div>
             </div>
@@ -43,25 +43,25 @@ export default async function APIDetails({ params }: { params: Promise<{ id: str
               <div className="space-y-4">
                 <div className="flex justify-between items-center">
                   <div className="flex items-center gap-2 text-zinc-400">
-                    <Clock className="w-4 h-4" /> <span className="text-sm">Avg Latency</span>
+                    <Clock weight="duotone" className="w-4 h-4" /> <span className="text-sm">Avg Latency</span>
                   </div>
                   <span className="text-sm font-mono text-white">120ms</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <div className="flex items-center gap-2 text-zinc-400">
-                    <CheckCircle2 className="w-4 h-4" /> <span className="text-sm">Success Rate</span>
+                    <CheckCircle weight="duotone" className="w-4 h-4" /> <span className="text-sm">Success Rate</span>
                   </div>
                   <span className="text-sm font-mono text-emerald-400">99.99%</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <div className="flex items-center gap-2 text-zinc-400">
-                    <Shield className="w-4 h-4" /> <span className="text-sm">Compliance</span>
+                    <Shield weight="duotone" className="w-4 h-4" /> <span className="text-sm">Compliance</span>
                   </div>
                   <span className="text-sm font-mono text-white">SOC2 / ISO</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <div className="flex items-center gap-2 text-zinc-400">
-                    <Layers className="w-4 h-4" /> <span className="text-sm">Rate Limit</span>
+                    <Stack weight="duotone" className="w-4 h-4" /> <span className="text-sm">Rate Limit</span>
                   </div>
                   <span className="text-sm font-mono text-white">10k / min</span>
                 </div>
@@ -89,7 +89,7 @@ export default async function APIDetails({ params }: { params: Promise<{ id: str
           {/* Authentication */}
           <section>
             <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-2">
-              <Key className="text-blue-500 w-6 h-6" /> Authentication
+              <Key weight="duotone" className="text-blue-500 w-6 h-6" /> Authentication
             </h2>
             <p className="text-zinc-400 font-light leading-relaxed mb-4">
               All API requests must be authenticated via an API Key provided in the request headers. 
@@ -103,7 +103,7 @@ export default async function APIDetails({ params }: { params: Promise<{ id: str
           {/* Code Example */}
           <section>
             <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-2">
-              <Terminal className="text-blue-500 w-6 h-6" /> Example Request
+              <Terminal weight="duotone" className="text-blue-500 w-6 h-6" /> Example Request
             </h2>
             <div className="bg-zinc-950 border border-zinc-800 rounded-xl overflow-hidden">
               <div className="bg-zinc-900 border-b border-zinc-800 px-4 py-2 flex items-center gap-2">
@@ -126,7 +126,7 @@ export default async function APIDetails({ params }: { params: Promise<{ id: str
           {/* Response Example */}
           <section>
             <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-2">
-              <Code2 className="text-blue-500 w-6 h-6" /> Example Response
+              <Code weight="duotone" className="text-blue-500 w-6 h-6" /> Example Response
             </h2>
             <div className="bg-zinc-950 border border-zinc-800 rounded-xl overflow-hidden">
               <div className="bg-zinc-900 border-b border-zinc-800 px-4 py-2 flex justify-between items-center">

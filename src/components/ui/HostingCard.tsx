@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { HardDrives, Lightning, Shield, Check } from "@phosphor-icons/react";
+import { HardDrives, Lightning, Shield, Check } from "@phosphor-icons/react/dist/ssr";
 
 interface HostingCardProps {
   title: string;

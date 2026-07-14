@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowLeft, CheckCircle, Clock, Code, Key, Terminal, Shield, BookOpen, Stack } from "@phosphor-icons/react";
+import { ArrowLeft, CheckCircle, Clock, Code, Key, Terminal, Shield, BookOpen, Stack } from "@phosphor-icons/react/dist/ssr";
 
 export default async function APIDetails({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;

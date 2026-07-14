@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Activity, Clock, CheckCircle } from "@phosphor-icons/react";
+import { Pulse, Clock, CheckCircle } from "@phosphor-icons/react/dist/ssr";
 
 interface APICardProps {
   name: string;

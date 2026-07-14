@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import APICard from "@/components/ui/APICard";
-import { MagnifyingGlass, Funnel, SlidersHorizontal } from "@phosphor-icons/react";
+import { MagnifyingGlass, Funnel, SlidersHorizontal } from "@phosphor-icons/react/dist/ssr";
 
 // Mock data for APIs
 const ALL_APIS = [

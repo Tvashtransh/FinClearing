@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowLeft, Cpu, HardDrive, ShareNetwork, Shield, Gear, Lightning } from "@phosphor-icons/react";
+import { ArrowLeft, Cpu, HardDrive, ShareNetwork, Shield, Gear, Lightning } from "@phosphor-icons/react/dist/ssr";
 
 export default async function HostingDetails({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;

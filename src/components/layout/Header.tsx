@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { List, X, MagnifyingGlass } from "@phosphor-icons/react";
+import { List, X, MagnifyingGlass } from "@phosphor-icons/react/dist/ssr";
 
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);

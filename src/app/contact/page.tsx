@@ -1,6 +1,6 @@
 "use client";
 
-import { Envelope } from "@phosphor-icons/react";
+import { Envelope } from "@phosphor-icons/react/dist/ssr";
 
 export default function ContactPage() {
   return (

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Wrench } from "@phosphor-icons/react";
+import { Wrench } from "@phosphor-icons/react/dist/ssr";
 
 export default function ServicesPage() {
   return (

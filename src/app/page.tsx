@@ -4,7 +4,7 @@ import CategoryCard from "@/components/ui/CategoryCard";
 import APICard from "@/components/ui/APICard";
 import HostingCard from "@/components/ui/HostingCard";
 import FeatureGrid from "@/components/ui/FeatureGrid";
-import { Buildings, Bank, Fingerprint, MagnifyingGlass, ShieldCheck, CreditCard, Rocket, HardDrives, Shield, Activity, Globe } from "@phosphor-icons/react";
+import { Buildings, Bank, Fingerprint, MagnifyingGlass, ShieldCheck, CreditCard, Rocket, HardDrives, Shield, Pulse, Globe } from "@phosphor-icons/react/dist/ssr";
 import Link from "next/link";
 
 export default function Home() {
@@ -170,7 +170,7 @@ export default function Home() {
               {
                 title: "99.99% Uptime SLA",
                 description: "Financially backed SLAs ensure your infrastructure never goes down during peak traffic.",
-                icon: <Activity weight="duotone" className="h-6 w-6" />
+                icon: <Pulse weight="duotone" className="h-6 w-6" />
               },
               {
                 title: "Global CDN",

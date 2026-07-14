@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Buildings } from "@phosphor-icons/react";
+import { Buildings } from "@phosphor-icons/react/dist/ssr";
 
 export default function EnterprisePage() {
   return (

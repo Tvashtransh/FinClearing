@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { CreditCard, CheckCircle } from "@phosphor-icons/react";
+import { CreditCard, CheckCircle } from "@phosphor-icons/react/dist/ssr";
 
 export default function PricingPage() {
   return (

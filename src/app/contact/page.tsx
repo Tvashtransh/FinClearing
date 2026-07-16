@@ -41,20 +41,11 @@ export default function ContactUs() {
                   </div>
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-                  <div>
-                    <label className="block text-xs font-semibold text-zinc-400 uppercase tracking-widest mb-1.5">Mobile Number *</label>
-                    <div className="relative">
-                      <Phone className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-zinc-500" />
-                      <input type="tel" required placeholder="+91 9876543210" className="w-full bg-zinc-900 border border-zinc-800 rounded-lg py-2.5 pl-9 pr-4 text-white text-sm focus:outline-none focus:border-zinc-600 focus:ring-1 focus:ring-zinc-600 transition-all" />
-                    </div>
-                  </div>
-                  <div>
-                    <label className="block text-xs font-semibold text-zinc-400 uppercase tracking-widest mb-1.5">Website (Optional)</label>
-                    <div className="relative">
-                      <Globe className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-zinc-500" />
-                      <input type="url" placeholder="https://yourcompany.com" className="w-full bg-zinc-900 border border-zinc-800 rounded-lg py-2.5 pl-9 pr-4 text-white text-sm focus:outline-none focus:border-zinc-600 focus:ring-1 focus:ring-zinc-600 transition-all" />
-                    </div>
+                <div>
+                  <label className="block text-xs font-semibold text-zinc-400 uppercase tracking-widest mb-1.5">Website (Optional)</label>
+                  <div className="relative">
+                    <Globe className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-zinc-500" />
+                    <input type="url" placeholder="https://yourcompany.com" className="w-full bg-zinc-900 border border-zinc-800 rounded-lg py-2.5 pl-9 pr-4 text-white text-sm focus:outline-none focus:border-zinc-600 focus:ring-1 focus:ring-zinc-600 transition-all" />
                   </div>
                 </div>
 
@@ -104,14 +95,9 @@ export default function ContactUs() {
             <p className="mb-6 text-sm text-zinc-400">
               We value your time. All support queries regarding API endpoints, server hosting infrastructure, or billing mandates will be addressed and resolved within <strong>24 to 48 business hours</strong>.
             </p>
-            
-            <h3 className="text-lg font-bold text-white mt-8 mb-4 border-b border-zinc-800 pb-2">Phone Support</h3>
-            <p className="mb-6 text-sm text-zinc-400">
-              You may also reach our support desk at:<br/>
-              <strong className="text-emerald-400 font-mono mt-2 inline-block">[+91-XXXXXXXXXX]</strong><br/>
-              <em className="text-xs text-zinc-500 mt-2 block">(Operating Hours: Monday to Friday, 9:00 AM to 6:00 PM IST)</em>
-            </p>
           </div>
+            
+
         </div>
       </div>
     </div>

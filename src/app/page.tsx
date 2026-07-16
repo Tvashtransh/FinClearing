@@ -126,7 +126,7 @@ export default function Home() {
               "99.9% Uptime Guarantee",
               "DDoS Protection"
             ]}
-            href="/hosting/hosting-base?term=1y"
+            href="/hosting"
           />
           <HostingCard 
             title="Hosting Pro"
@@ -141,7 +141,7 @@ export default function Home() {
               "99.95% Uptime Guarantee",
               "Priority 24/7 Support"
             ]}
-            href="/hosting/hosting-pro?term=1y"
+            href="/hosting"
           />
           <HostingCard 
             title="Hosting Enterprise"
@@ -154,7 +154,7 @@ export default function Home() {
               "Dedicated Account Manager",
               "On-Premise Deployment Options"
             ]}
-            href="/hosting/hosting-enterprise"
+            href="/hosting"
           />
         </div>
       </section>
@@ -207,7 +207,7 @@ export default function Home() {
             Join thousands of developers building the next generation of financial and enterprise applications on APIExplore.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Link href="/contact" className="px-8 py-4 rounded-xl text-sm font-bold tracking-wider text-black bg-white hover:bg-zinc-200 transition-all duration-200 uppercase flex items-center justify-center shadow-lg shadow-white/10">
+            <Link href="/login" className="px-8 py-4 rounded-xl text-sm font-bold tracking-wider text-black bg-white hover:bg-zinc-200 transition-all duration-200 uppercase flex items-center justify-center shadow-lg shadow-white/10">
               Start Building for Free
             </Link>
             <Link href="/contact" className="px-8 py-4 rounded-xl text-sm font-bold tracking-wider text-white bg-zinc-900 border border-zinc-700 hover:bg-zinc-800 transition-all duration-200 uppercase flex items-center justify-center">

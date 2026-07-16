@@ -44,7 +44,7 @@ export default function Header() {
           >
             <MagnifyingGlass weight="duotone" className="h-5 w-5" />
           </button>
-          <Link href="/contact" className="px-5 py-2.5 rounded-lg text-xs font-semibold tracking-wider text-black bg-white border border-transparent hover:bg-zinc-200 transition-all duration-200 uppercase">
+          <Link href="/login" className="px-5 py-2.5 rounded-lg text-xs font-semibold tracking-wider text-black bg-white border border-transparent hover:bg-zinc-200 transition-all duration-200 uppercase">
             Start Building
           </Link>
         </div>
@@ -74,7 +74,7 @@ export default function Header() {
           <Link href="/pricing" onClick={() => setIsMobileMenuOpen(false)} className="block text-zinc-300 hover:text-white transition-colors py-2">Pricing</Link>
           <Link href="/docs" onClick={() => setIsMobileMenuOpen(false)} className="block text-zinc-300 hover:text-white transition-colors py-2">Docs</Link>
           <div className="pt-4 border-t border-zinc-800">
-            <Link href="/contact" onClick={() => setIsMobileMenuOpen(false)} className="block w-full text-center py-3 rounded-lg text-sm font-semibold text-black bg-white hover:bg-zinc-200 transition-all uppercase tracking-widest">
+            <Link href="/login" onClick={() => setIsMobileMenuOpen(false)} className="block w-full text-center py-3 rounded-lg text-sm font-semibold text-black bg-white hover:bg-zinc-200 transition-all uppercase tracking-widest">
               Start Building
             </Link>
           </div>

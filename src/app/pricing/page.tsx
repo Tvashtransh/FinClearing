@@ -36,7 +36,7 @@ const dsaPlans = [
       ],
       communicate: [
         { text: "Email Support Ticket System", included: true },
-        { text: "Meta WhatsApp Business API", included: false },
+        { text: "Custom Webhook Notification Pipelines", included: false },
         { text: "Priority Slack Connect", included: false },
       ]
     }
@@ -61,20 +61,20 @@ const dsaPlans = [
         { text: "Standard API Gateway Access", included: true },
         { text: "99.9% Uptime SLA", included: true },
         { text: "Graphs, DP & Trees Endpoints Included", included: true },
-        { text: "100 verifications/mo Document OCR Sandbox", included: true },
+        { text: "100 runs/mo Algorithmic Performance Sandbox", included: true },
         { text: "Automated Time & Space Complexity Analyzer", included: true },
         { text: "Priority 4-Hour Slack SLA", included: true },
       ],
       buildWith: [
         { text: "Advanced Endpoints: Graphs, Dynamic Programming & Trees", included: true },
-        { text: "Clerk Enterprise Auth Gateway (Role-Based Access Pipeline)", included: true },
+        { text: "Secure API Token Access Management (Role-Based Access Pipeline)", included: true },
         { text: "Polyglot Snippets: Python 3.10, Java 17, C++20", included: true },
         { text: "Custom Internal Endpoint Integration", included: false },
       ],
       communicate: [
         { text: "Email Support Ticket System", included: true },
         { text: "Priority Slack Connect Channel", included: true },
-        { text: "Meta WhatsApp Business API", included: false },
+        { text: "Custom Webhook Notification Pipelines", included: false },
       ]
     }
   },
@@ -83,7 +83,7 @@ const dsaPlans = [
     title: "DSA Enterprise",
     icon: "🏢",
     badge: "Custom Offer",
-    description: "Dedicated scale and absolute throughput for large-tier financial infrastructure.",
+    description: "Dedicated scale and absolute throughput for enterprise-grade applications and production systems.",
     isCustom: true,
     price: {
       customLabel: "Custom Pricing",
@@ -96,20 +96,20 @@ const dsaPlans = [
         { text: "Custom Enterprise Gateway Access", included: true },
         { text: "Strict 99.99% Uptime SLA with Financial Backing", included: true },
         { text: "Full Data Structure Suite Included", included: true },
-        { text: "Unlimited Document OCR Verifications", included: true },
+        { text: "Unlimited Algorithmic Performance Sandbox Runs", included: true },
         { text: "Automated Time & Space Complexity Analyzer", included: true },
         { text: "24/7 Dedicated Support Engineer Line", included: true },
       ],
       buildWith: [
         { text: "All Endpoints + Custom Internal Endpoint Integration", included: true },
-        { text: "Clerk Enterprise Auth Gateway (Role-Based Access Pipeline)", included: true },
+        { text: "Secure API Token Access Management (Role-Based Access Pipeline)", included: true },
         { text: "On-Premise or VPC Deployment Options (AWS / GCP)", included: true },
         { text: "Custom Integration Pipeline Support", included: true },
       ],
       communicate: [
         { text: "24/7 Phone Support via Dedicated Direct Line", included: true },
         { text: "Priority Slack Connect Channel", included: true },
-        { text: "Meta WhatsApp Business API (Includes 1,500 Utility Msgs)", included: true },
+        { text: "Custom Webhook Notification Pipelines (Includes 1,500 Alerts)", included: true },
       ]
     }
   }

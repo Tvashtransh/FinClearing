@@ -32,8 +32,6 @@ export default function Header() {
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-zinc-400">
           <Link href="/apis" className="hover:text-white transition-colors">API Hub</Link>
           <Link href="/hosting" className="hover:text-white transition-colors">Hosting</Link>
-          <Link href="/services" className="hover:text-white transition-colors">Services</Link>
-          <Link href="/enterprise" className="hover:text-white transition-colors">Enterprise</Link>
           <Link href="/pricing" className="hover:text-white transition-colors">Pricing</Link>
           <Link href="/docs" className="hover:text-white transition-colors">Docs</Link>
         </nav>
@@ -73,8 +71,6 @@ export default function Header() {
         <div className="absolute top-20 left-0 w-full bg-brand-obsidian border-b border-zinc-800 p-6 space-y-4 md:hidden animate-fade-in shadow-2xl">
           <Link href="/apis" onClick={() => setIsMobileMenuOpen(false)} className="block text-zinc-300 hover:text-white transition-colors py-2">API Hub</Link>
           <Link href="/hosting" onClick={() => setIsMobileMenuOpen(false)} className="block text-zinc-300 hover:text-white transition-colors py-2">Hosting</Link>
-          <Link href="/services" onClick={() => setIsMobileMenuOpen(false)} className="block text-zinc-300 hover:text-white transition-colors py-2">Services</Link>
-          <Link href="/enterprise" onClick={() => setIsMobileMenuOpen(false)} className="block text-zinc-300 hover:text-white transition-colors py-2">Enterprise</Link>
           <Link href="/pricing" onClick={() => setIsMobileMenuOpen(false)} className="block text-zinc-300 hover:text-white transition-colors py-2">Pricing</Link>
           <Link href="/docs" onClick={() => setIsMobileMenuOpen(false)} className="block text-zinc-300 hover:text-white transition-colors py-2">Docs</Link>
           <div className="pt-4 border-t border-zinc-800">

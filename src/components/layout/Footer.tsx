@@ -32,7 +32,6 @@ export default function Footer() {
           <ul className="space-y-2.5 font-light">
             <li><Link href="/apis" className="hover:text-white transition-colors">API Marketplace</Link></li>
             <li><Link href="/hosting" className="hover:text-white transition-colors">Cloud Hosting</Link></li>
-            <li><Link href="/enterprise" className="hover:text-white transition-colors">Enterprise Solutions</Link></li>
           </ul>
         </div>
 
@@ -51,7 +50,6 @@ export default function Footer() {
           <h6 className="font-bold text-white uppercase text-[10px] tracking-widest">Corporate</h6>
           <ul className="space-y-2.5 font-light">
             <li><Link href="/contact" className="hover:text-white transition-colors">Contact Sales</Link></li>
-            <li><Link href="/enterprise" className="hover:text-white transition-colors">Enterprise Support</Link></li>
             <li><Link href="/docs" className="hover:text-white transition-colors">Developer Docs</Link></li>
             <li><span className="text-zinc-600">Secure Node Status: </span><span className="text-emerald-400 font-mono text-[10px]">99.99% UP</span></li>
           </ul>

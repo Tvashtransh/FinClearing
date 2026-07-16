@@ -29,7 +29,10 @@ export default function DocsPage() {
             <div>
               <h4 className="text-xs font-semibold text-zinc-500 uppercase tracking-wider mb-3">Guides</h4>
               <ul className="space-y-2">
+                <li><a href="#webhooks" className="text-sm text-zinc-400 hover:text-white transition-colors block py-1 border-l border-transparent hover:border-zinc-500 pl-3 -ml-3">Webhooks Integration</a></li>
+                <li><a href="#rate-limits" className="text-sm text-zinc-400 hover:text-white transition-colors block py-1 border-l border-transparent hover:border-zinc-500 pl-3 -ml-3">Rate Limits</a></li>
                 <li><a href="#errors" className="text-sm text-zinc-400 hover:text-white transition-colors block py-1 border-l border-transparent hover:border-zinc-500 pl-3 -ml-3">Error & Handling Metrics</a></li>
+                <li><a href="#sla" className="text-sm text-zinc-400 hover:text-white transition-colors block py-1 border-l border-transparent hover:border-zinc-500 pl-3 -ml-3">SLA & Compliance</a></li>
               </ul>
             </div>
           </div>
@@ -201,11 +204,78 @@ export default function DocsPage() {
                     <td className="py-4 px-4 text-zinc-300">Your account rate limit profile has been reached.</td>
                     <td className="py-4 px-4 text-zinc-400">Drop request velocity to match plan QPS.</td>
                   </tr>
+                  <tr className="border-b border-zinc-800/50 hover:bg-zinc-900/30 transition-colors">
+                    <td className="py-4 px-4 font-mono text-rose-500">500 Internal Error</td>
+                    <td className="py-4 px-4 text-zinc-300">Server failed to process the request correctly.</td>
+                    <td className="py-4 px-4 text-zinc-400">Retry request with exponential backoff.</td>
+                  </tr>
                 </tbody>
               </table>
             </div>
           </div>
-          
+
+          <hr className="border-zinc-800 my-12" />
+
+          <div className="mb-12" id="webhooks">
+            <h2 className="text-2xl text-white flex items-center gap-2">
+              <Lightning className="w-6 h-6 text-purple-400" /> Webhooks Integration
+            </h2>
+            <p>
+              Receive real-time notifications about long-running asynchronous jobs. By configuring a webhook URL in your dashboard, you can have apiexplore.shop POST results directly back to your infrastructure once processing is complete.
+            </p>
+            <h4 className="text-sm font-semibold text-white mt-8 mb-4">Webhook Delivery Format</h4>
+            <div className="rounded-xl overflow-hidden border border-zinc-800 bg-[#111] shadow-xl">
+              <div className="bg-[#1A1A1A] px-4 py-2 border-b border-zinc-800 flex items-center gap-2 text-xs font-mono text-zinc-400">
+                JSON POST Payload
+              </div>
+              <pre className="p-4 overflow-x-auto text-sm font-mono text-zinc-300 m-0 bg-transparent border-none">
+                <code>{`{
+  "event_type": "job.completed",
+  "job_id": "req_8xV1qM92p",
+  "timestamp": "2026-07-16T18:00:00Z",
+  "payload": {
+    "status": "success",
+    "result_url": "https://api.apiexplore.shop/v1/jobs/req_8xV1qM92p/results"
+  }
+}`}</code>
+              </pre>
+            </div>
+            <p className="mt-4 text-sm text-zinc-400">Ensure your webhook endpoint responds with a <code>200 OK</code> status code within 3 seconds, or the delivery will be marked as failed and retried up to 5 times.</p>
+          </div>
+
+          <hr className="border-zinc-800 my-12" />
+
+          <div className="mb-12" id="rate-limits">
+            <h2 className="text-2xl text-white flex items-center gap-2">
+              <ShieldCheck className="w-6 h-6 text-blue-400" /> Rate Limits
+            </h2>
+            <p>
+              To ensure platform stability and high availability across all tenants, APIExplore enforces rate limits based on your subscription tier.
+            </p>
+            <ul className="space-y-2 mt-4 text-sm text-zinc-400 list-disc pl-5">
+              <li><strong className="text-white">Base Tier:</strong> 5 Requests per second (QPS). Maximum 10,000 requests per month.</li>
+              <li><strong className="text-white">Scale Tier:</strong> 50 Requests per second (QPS). Maximum 1,000,000 requests per month.</li>
+              <li><strong className="text-white">Enterprise Tier:</strong> Custom rate limits based on SLA terms, capable of scaling to 10,000+ QPS.</li>
+            </ul>
+            <p className="mt-4 text-sm text-zinc-400">If you exceed your QPS limit, you will receive a <code>429 Too Many Requests</code> HTTP response. You should implement a Retry-After header strategy to handle burst traffic gracefully.</p>
+          </div>
+
+          <hr className="border-zinc-800 my-12" />
+
+          <div className="mb-24" id="sla">
+            <h2 className="text-2xl text-white flex items-center gap-2">
+              <ShieldCheck className="w-6 h-6 text-emerald-400" /> SLA & Compliance
+            </h2>
+            <p>
+              We stand by our uptime guarantees. All infrastructure deployments are monitored 24/7.
+            </p>
+            <ul className="space-y-2 mt-4 text-sm text-zinc-400 list-disc pl-5">
+              <li>Base accounts receive a standard 99.9% uptime guarantee.</li>
+              <li>Scale accounts receive a 99.95% uptime guarantee with priority Slack support (4-hour response time).</li>
+              <li>Enterprise accounts receive a rigid 99.99% financially backed uptime guarantee. If we miss our targets, we issue automatic service credits equivalent to 10% of your monthly bill.</li>
+            </ul>
+          </div>
+
         </main>
       </div>
     </div>

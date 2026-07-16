@@ -22,7 +22,7 @@ export default function Footer() {
             The sovereign ledger infrastructure for high-scale loan distribution networks, expanded into a complete developer marketplace for APIs and Hosting.
           </p>
           <p className="text-[11px] mt-4 font-light">
-            © {new Date().getFullYear()} APIExplore Inc. All rights reserved.
+            © 2026 apiexplore.shop — Operated by Priyanshu Pethari. All rights reserved.
           </p>
         </div>
 

@@ -32,19 +32,17 @@ export default function Footer() {
           <ul className="space-y-2.5 font-light">
             <li><Link href="/apis" className="hover:text-white transition-colors">API Marketplace</Link></li>
             <li><Link href="/hosting" className="hover:text-white transition-colors">Cloud Hosting</Link></li>
-            <li><Link href="/services" className="hover:text-white transition-colors">Developer Services</Link></li>
             <li><Link href="/enterprise" className="hover:text-white transition-colors">Enterprise Solutions</Link></li>
           </ul>
         </div>
 
-        {/* Links Column 2 */}
         <div className="space-y-4">
-          <h6 className="font-bold text-white uppercase text-[10px] tracking-widest">Security & Legal</h6>
+          <h6 className="font-bold text-white uppercase text-[10px] tracking-widest">Legal & Compliance</h6>
           <ul className="space-y-2.5 font-light">
-            <li><Link href="/compliance" className="hover:text-white transition-colors">Data Privacy Shield</Link></li>
-            <li><Link href="/compliance" className="hover:text-white transition-colors">Audit Certifications</Link></li>
-            <li><Link href="/pricing" className="hover:text-white transition-colors">Licensing Terms</Link></li>
-            <li><Link href="/contact" className="hover:text-white transition-colors">Data Processing Addendum</Link></li>
+            <li><Link href="/contact" className="hover:text-white transition-colors">Contact Us</Link></li>
+            <li><Link href="/terms" className="hover:text-white transition-colors">Terms & Conditions</Link></li>
+            <li><Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link></li>
+            <li><Link href="/refund-policy" className="hover:text-white transition-colors">Refund & Cancellation Policy</Link></li>
           </ul>
         </div>
 

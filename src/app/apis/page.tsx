@@ -6,13 +6,16 @@ import { MagnifyingGlass, Funnel, SlidersHorizontal } from "@phosphor-icons/reac
 
 // Mock data for APIs
 const ALL_APIS = [
-  { id: "upi-collection", name: "UPI Collection", category: "Payments", desc: "Generate dynamic UPI QR codes and deep links.", time: "80ms", success: "99.99%", calls: "150M+", price: "₹0.50" },
-  { id: "gst-verification", name: "GSTIN Verification", category: "Verification", desc: "Fetch business details using GSTIN number.", time: "180ms", success: "99.5%", calls: "10M+", price: "₹1.00" },
-  { id: "ocr-document", name: "AI Document OCR", category: "AI", desc: "Extract structured data from ID cards and bank statements.", time: "1200ms", success: "95.0%", calls: "8M+", price: "₹5.00" },
-  { id: "whatsapp-notif", name: "WhatsApp Notifications", category: "SMS", desc: "Send transactional alerts via WhatsApp Business API.", time: "150ms", success: "99.9%", calls: "200M+", price: "₹0.80" },
+  { id: "code-execution", name: "Code Execution Engine", category: "Infrastructure", desc: "Secure, isolated sandboxed runtime environment to compile and execute user code snippets across 15+ programming languages.", time: "320ms", success: "99.95%", calls: "10M+", price: "₹1.20" },
+  { id: "algorithm-profiler", name: "Algorithm Profiler", category: "AI", desc: "Static code analysis API evaluating Big-O runtime performance and space complexity constraints dynamically on codebase submissions.", time: "140ms", success: "99.8%", calls: "5M+", price: "₹2.50" },
+  { id: "devdoc-exporter", name: "DevDoc Exporter", category: "Infrastructure", desc: "High-fidelity document generation endpoint rendering programmatic structural text layouts and code blocks into production-ready PDFs.", time: "210ms", success: "99.9%", calls: "20M+", price: "₹0.90" },
+  { id: "payload-guard", name: "Payload Guard", category: "Infrastructure", desc: "High-speed data structure checking engine validating heavily nested JSON structures against pre-defined strict developer schemas.", time: "15ms", success: "99.99%", calls: "250M+", price: "₹0.15" },
+  { id: "edge-location", name: "Edge Location API", category: "Infrastructure", desc: "Fetch highly accurate server routing and geographic metadata context derived strictly from public edge network incoming IP addresses.", time: "45ms", success: "99.99%", calls: "300M+", price: "₹0.30" },
+  { id: "syntax-purge", name: "Syntax Purge", category: "AI", desc: "Light processing engine parsing raw text variables to scrub execution code syntax vulnerability components like XSS and raw SQL injection tags.", time: "25ms", success: "99.95%", calls: "50M+", price: "₹0.40" },
+  { id: "ocr-document", name: "AI Document OCR", category: "AI", desc: "Extract structured data from basic image-text documents instantly.", time: "1200ms", success: "95.0%", calls: "8M+", price: "₹5.00" },
 ];
 
-const CATEGORIES = ["All", "Infrastructure", "Verification", "Payments", "AI", "SMS"];
+const CATEGORIES = ["All", "Infrastructure", "AI"];
 
 export default function APIHub() {
   const [search, setSearch] = useState("");

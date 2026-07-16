@@ -29,25 +29,25 @@ export default function Home() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           <CategoryCard 
-            title="Infrastructure & Data" 
+            title="Cloud Infrastructure" 
             count={24} 
             icon={<Bank weight="duotone" className="h-6 w-6" />} 
             href="/apis/infrastructure" 
           />
           <CategoryCard 
-            title="Identity & KYC" 
+            title="Code Execution" 
             count={12} 
             icon={<Fingerprint weight="duotone" className="h-6 w-6" />} 
-            href="/apis/verification" 
+            href="/apis/infrastructure" 
           />
           <CategoryCard 
-            title="Payments" 
+            title="Data Validation" 
             count={18} 
             icon={<CreditCard weight="duotone" className="h-6 w-6" />} 
-            href="/apis/payments" 
+            href="/apis/infrastructure" 
           />
           <CategoryCard 
-            title="Data OCR & AI" 
+            title="AI & Optimization" 
             count={9} 
             icon={<MagnifyingGlass weight="duotone" className="h-6 w-6" />} 
             href="/apis/ai" 
@@ -65,34 +65,34 @@ export default function Home() {
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
             <APICard 
-              name="WhatsApp Notifications"
-              category="Communication"
-              description="Send transactional alerts and OTPs securely via WhatsApp Business API."
-              responseTime="150ms"
-              successRate="99.9%"
-              monthlyCalls="200M+"
-              startingPrice="₹0.80"
-              href="/apis/whatsapp-notif"
+              name="Code Execution Engine"
+              category="Infrastructure"
+              description="Secure, isolated sandboxed runtime environment to compile and execute user code snippets across 15+ programming languages."
+              responseTime="320ms"
+              successRate="99.95%"
+              monthlyCalls="10M+"
+              startingPrice="₹1.20"
+              href="/apis/code-execution"
             />
             <APICard 
-              name="AI Document OCR"
+              name="Algorithm Profiler"
               category="AI"
-              description="Extract structured data from standard documents and forms instantly."
-              responseTime="1200ms"
-              successRate="95.0%"
-              monthlyCalls="8M+"
-              startingPrice="₹5.00"
-              href="/apis/ocr-document"
+              description="Static code analysis API evaluating Big-O runtime performance and space complexity constraints dynamically on codebase submissions."
+              responseTime="140ms"
+              successRate="99.8%"
+              monthlyCalls="5M+"
+              startingPrice="₹2.50"
+              href="/apis/algorithm-profiler"
             />
             <APICard 
-              name="UPI Collection"
-              category="Payments"
-              description="Generate dynamic UPI QR codes, deep links, and handle real-time webhook settlement notifications."
-              responseTime="80ms"
+              name="Payload Guard"
+              category="Infrastructure"
+              description="High-speed data structure checking engine validating heavily nested JSON structures against pre-defined strict developer schemas."
+              responseTime="15ms"
               successRate="99.99%"
-              monthlyCalls="150M+"
-              startingPrice="₹0.50"
-              href="/apis/upi-collection"
+              monthlyCalls="250M+"
+              startingPrice="₹0.15"
+              href="/apis/payload-guard"
             />
           </div>
         </div>
@@ -115,46 +115,46 @@ export default function Home() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <HostingCard 
-            title="Compute VPS"
-            description="Perfect for lightweight webhooks and microservices."
-            price="$12"
+            title="Hosting Base"
+            description="Best for early-stage DSA tools and lightweight validation workloads."
+            price="₹19,000"
+            period=" / yr"
             features={[
-              "2 vCPU Cores",
-              "4GB RAM",
-              "80GB NVMe SSD",
-              "Unmetered Bandwidth",
+              "Shared Containerized Pods",
+              "1TB Monthly Egress Bandwidth",
+              "Automated Daily Snapshots",
+              "99.9% Uptime Guarantee",
               "DDoS Protection"
             ]}
-            href="/hosting/vps"
+            href="/hosting/hosting-base?term=1y"
           />
           <HostingCard 
-            title="API Gateway"
-            description="High-throughput isolated shard for API routing."
-            price="$49"
+            title="Hosting Pro"
+            description="Great for scaling platforms needing full compliance and stability."
+            price="₹49,000"
+            period=" / yr"
             isPopular={true}
             features={[
-              "8 vCPU Cores",
-              "16GB RAM",
-              "250GB NVMe SSD",
-              "Auto-scaling Enabled",
-              "WAF & Rate Limiting",
-              "Priority Support"
+              "Isolated Mumbai Region VPS",
+              "Unlimited Bandwidth",
+              "Real-Time Node Replication",
+              "99.95% Uptime Guarantee",
+              "Priority 24/7 Support"
             ]}
-            href="/hosting/cloud"
+            href="/hosting/hosting-pro?term=1y"
           />
           <HostingCard 
-            title="Dedicated Node"
-            description="Bare-metal performance for financial ledgers."
-            price="$199"
+            title="Hosting Enterprise"
+            description="Maximum isolation and custom SLA backing for large-scale operations."
+            price="Custom"
             features={[
-              "32 Core AMD EPYC",
-              "128GB ECC RAM",
-              "2TB NVMe Raid 1",
+              "Dedicated Bare-Metal Nodes",
               "Custom Network Topology",
-              "SOC2 Compliance Certs",
-              "Dedicated Account Manager"
+              "Zero Noisy Neighbors",
+              "Dedicated Account Manager",
+              "On-Premise Deployment Options"
             ]}
-            href="/hosting/dedicated"
+            href="/hosting/hosting-enterprise"
           />
         </div>
       </section>

@@ -1,59 +1,31 @@
-"use client";
+import React from "react";
 
-import { Envelope } from "@phosphor-icons/react/dist/ssr";
-
-export default function ContactPage() {
+export default function ContactUs() {
   return (
-    <div className="bg-brand-obsidian min-h-screen pt-24 pb-24">
-      <div className="max-w-3xl mx-auto px-6">
-        <div className="text-center space-y-6 mb-16">
-          <div className="mx-auto w-16 h-16 rounded-2xl bg-zinc-900 border border-zinc-800 flex items-center justify-center text-blue-500 mb-8">
-            <Envelope weight="duotone" className="w-8 h-8" />
-          </div>
-          <h1 className="text-4xl md:text-5xl font-extrabold text-white tracking-tight">Contact Sales</h1>
-          <p className="text-lg text-zinc-400 font-light leading-relaxed">
-            Discuss enterprise pricing, request a custom SLA, or apply for the startup program.
-          </p>
-        </div>
-
-        <div className="bg-zinc-950/80 border border-zinc-800 rounded-2xl p-8 shadow-2xl">
-          <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div>
-                <label className="block text-xs font-bold uppercase tracking-widest text-zinc-500 mb-2">First Name</label>
-                <input type="text" className="w-full bg-zinc-900 border border-zinc-800 rounded-lg px-4 py-3 text-white focus:border-blue-500 focus:outline-none" />
-              </div>
-              <div>
-                <label className="block text-xs font-bold uppercase tracking-widest text-zinc-500 mb-2">Last Name</label>
-                <input type="text" className="w-full bg-zinc-900 border border-zinc-800 rounded-lg px-4 py-3 text-white focus:border-blue-500 focus:outline-none" />
-              </div>
-            </div>
-            
-            <div>
-              <label className="block text-xs font-bold uppercase tracking-widest text-zinc-500 mb-2">Work Email</label>
-              <input type="email" className="w-full bg-zinc-900 border border-zinc-800 rounded-lg px-4 py-3 text-white focus:border-blue-500 focus:outline-none" />
-            </div>
-
-            <div>
-              <label className="block text-xs font-bold uppercase tracking-widest text-zinc-500 mb-2">Company Size</label>
-              <select className="w-full bg-zinc-900 border border-zinc-800 rounded-lg px-4 py-3 text-white focus:border-blue-500 focus:outline-none">
-                <option>1-50 employees</option>
-                <option>51-200 employees</option>
-                <option>201-1000 employees</option>
-                <option>1000+ employees</option>
-              </select>
-            </div>
-
-            <div>
-              <label className="block text-xs font-bold uppercase tracking-widest text-zinc-500 mb-2">Message</label>
-              <textarea rows={4} className="w-full bg-zinc-900 border border-zinc-800 rounded-lg px-4 py-3 text-white focus:border-blue-500 focus:outline-none"></textarea>
-            </div>
-
-            <button className="w-full py-4 rounded-xl text-sm font-bold tracking-wider text-black bg-white hover:bg-zinc-200 transition-all uppercase">
-              Submit Request
-            </button>
-          </form>
-        </div>
+    <div className="bg-brand-obsidian min-h-screen pt-12 pb-24 text-zinc-300">
+      <div className="max-w-3xl mx-auto px-6 prose prose-invert prose-zinc">
+        <h1 className="text-4xl font-extrabold text-white mb-8">CONTACT US</h1>
+        <p className="mb-6">
+          <strong>apiexplore.shop</strong> is committed to providing exceptional support for your developer integration and hosting infrastructure needs. If you require assistance with your account, API access, or subscription billing, our dedicated support team is here to help.
+        </p>
+        
+        <h3 className="text-xl font-bold text-white mt-8 mb-4">Email Support</h3>
+        <p className="mb-6">
+          For all technical inquiries, billing questions, and general support, please reach out to us at:<br/>
+          <strong className="text-emerald-400">support@apiexplore.shop</strong>
+        </p>
+        
+        <h3 className="text-xl font-bold text-white mt-8 mb-4">Service Level Agreement (SLA)</h3>
+        <p className="mb-6">
+          We value your time. All support queries regarding API endpoints, server hosting infrastructure, or billing mandates will be addressed and resolved within <strong>24 to 48 business hours</strong>.
+        </p>
+        
+        <h3 className="text-xl font-bold text-white mt-8 mb-4">Phone Support</h3>
+        <p className="mb-6">
+          You may also reach our support desk at:<br/>
+          <strong className="text-emerald-400">[+91-XXXXXXXXXX]</strong><br/>
+          <em className="text-sm text-zinc-500">(Operating Hours: Monday to Friday, 9:00 AM to 6:00 PM IST)</em>
+        </p>
       </div>
     </div>
   );

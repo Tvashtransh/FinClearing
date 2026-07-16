@@ -20,7 +20,7 @@ export default function Hero() {
           </h2>
 
           <p className="text-zinc-400 text-lg sm:text-xl font-light leading-relaxed max-w-2xl">
-            Empower your network with production-ready APIs, managed hosting, and enterprise-grade security. Purpose-built for high-volume enterprises and agile startups.
+            Empower your network with production-ready APIs, managed hosting, and enterprise-grade security. Purpose-built for scaling developers, agile startups, and modern tech products.
           </p>
 
           <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 pt-4">

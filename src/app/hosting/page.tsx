@@ -141,17 +141,17 @@ export default function HostingHub() {
             <HostingCard 
               title="DB Node"
               description="Optimized for high-IOPS database hosting."
-              price="$199"
+              price="Custom"
               features={["32 Core AMD EPYC", "128GB ECC RAM", "2TB NVMe Raid 1", "SOC2 Compliance Certs"]}
-              href="/hosting/dedicated/db"
+              href="/contact"
             />
             <HostingCard 
               title="GPU Cluster"
               description="AI model inference and training nodes."
-              price="$499"
+              price="Custom"
               isPopular={true}
               features={["Dual NVIDIA A100", "256GB ECC RAM", "4TB NVMe SSD", "100Gbps Internal Network"]}
-              href="/hosting/dedicated/gpu"
+              href="/contact"
             />
             <HostingCard 
               title="Enterprise Vault"

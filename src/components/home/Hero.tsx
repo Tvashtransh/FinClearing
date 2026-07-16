@@ -20,7 +20,7 @@ export default function Hero() {
           </h2>
 
           <p className="text-zinc-400 text-lg sm:text-xl font-light leading-relaxed max-w-2xl">
-            Empower your network with production-ready APIs, managed hosting, and banking-grade security. Purpose-built for high-volume enterprises and agile startups.
+            Empower your network with production-ready APIs, managed hosting, and enterprise-grade security. Purpose-built for high-volume enterprises and agile startups.
           </p>
 
           <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 pt-4">
@@ -35,12 +35,12 @@ export default function Hero() {
 
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-6 pt-8 border-t border-zinc-900 max-w-xl">
             <div>
-              <p className="text-2xl font-bold text-white tracking-tight">5.4B+</p>
-              <p className="text-[11px] uppercase tracking-wider text-zinc-500 mt-1 font-semibold">API Requests</p>
+              <p className="text-2xl font-bold text-white tracking-tight">10Gbps</p>
+              <p className="text-[11px] uppercase tracking-wider text-zinc-500 mt-1 font-semibold">Network Backbone</p>
             </div>
             <div>
-              <p className="text-2xl font-bold text-white tracking-tight">1.2ms</p>
-              <p className="text-[11px] uppercase tracking-wider text-zinc-500 mt-1 font-semibold">Avg Latency</p>
+              <p className="text-2xl font-bold text-white tracking-tight">Sub-5ms</p>
+              <p className="text-[11px] uppercase tracking-wider text-zinc-500 mt-1 font-semibold">Target Latency</p>
             </div>
             <div className="col-span-2 sm:col-span-1">
               <p className="text-2xl font-bold text-white tracking-tight">99.99%</p>

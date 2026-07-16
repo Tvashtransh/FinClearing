@@ -6,17 +6,13 @@ import { MagnifyingGlass, Funnel, SlidersHorizontal } from "@phosphor-icons/reac
 
 // Mock data for APIs
 const ALL_APIS = [
-  { id: "pan-verification", name: "PAN Verification API", category: "Verification", desc: "Real-time fetching of PAN holder details.", time: "120ms", success: "99.9%", calls: "50M+", price: "₹1.50" },
-  { id: "account-aggregator", name: "Account Aggregator", category: "Banking", desc: "Fetch consolidated financial data across banks.", time: "450ms", success: "98.5%", calls: "12M+", price: "₹4.00" },
   { id: "upi-collection", name: "UPI Collection", category: "Payments", desc: "Generate dynamic UPI QR codes and deep links.", time: "80ms", success: "99.99%", calls: "150M+", price: "₹0.50" },
-  { id: "aadhaar-kyc", name: "Aadhaar eKYC API", category: "Verification", desc: "UIDAI compliant biometric and OTP eKYC.", time: "250ms", success: "99.0%", calls: "20M+", price: "₹2.00" },
   { id: "gst-verification", name: "GSTIN Verification", category: "Verification", desc: "Fetch business details using GSTIN number.", time: "180ms", success: "99.5%", calls: "10M+", price: "₹1.00" },
-  { id: "credit-bureau", name: "Credit Bureau Pull", category: "Banking", desc: "Fetch CIBIL/Experian credit reports instantly.", time: "800ms", success: "97.5%", calls: "5M+", price: "₹15.00" },
   { id: "ocr-document", name: "AI Document OCR", category: "AI", desc: "Extract structured data from ID cards and bank statements.", time: "1200ms", success: "95.0%", calls: "8M+", price: "₹5.00" },
   { id: "whatsapp-notif", name: "WhatsApp Notifications", category: "SMS", desc: "Send transactional alerts via WhatsApp Business API.", time: "150ms", success: "99.9%", calls: "200M+", price: "₹0.80" },
 ];
 
-const CATEGORIES = ["All", "Banking", "Verification", "Payments", "AI", "SMS"];
+const CATEGORIES = ["All", "Infrastructure", "Verification", "Payments", "AI", "SMS"];
 
 export default function APIHub() {
   const [search, setSearch] = useState("");

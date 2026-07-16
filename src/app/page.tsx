@@ -29,10 +29,10 @@ export default function Home() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           <CategoryCard 
-            title="Banking & Finance" 
+            title="Infrastructure & Data" 
             count={24} 
             icon={<Bank weight="duotone" className="h-6 w-6" />} 
-            href="/apis/banking" 
+            href="/apis/infrastructure" 
           />
           <CategoryCard 
             title="Identity & KYC" 
@@ -65,24 +65,24 @@ export default function Home() {
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
             <APICard 
-              name="PAN Verification API"
-              category="Verification"
-              description="Real-time fetching of PAN holder details directly from NSDL/Income Tax department databases."
-              responseTime="120ms"
+              name="WhatsApp Notifications"
+              category="Communication"
+              description="Send transactional alerts and OTPs securely via WhatsApp Business API."
+              responseTime="150ms"
               successRate="99.9%"
-              monthlyCalls="50M+"
-              startingPrice="₹1.50"
-              href="/apis/pan-verification"
+              monthlyCalls="200M+"
+              startingPrice="₹0.80"
+              href="/apis/whatsapp-notif"
             />
             <APICard 
-              name="Account Aggregator"
-              category="Banking"
-              description="Fetch consolidated financial data across multiple banks using RBI-approved FIP framework."
-              responseTime="450ms"
-              successRate="98.5%"
-              monthlyCalls="12M+"
-              startingPrice="₹4.00"
-              href="/apis/account-aggregator"
+              name="AI Document OCR"
+              category="AI"
+              description="Extract structured data from standard documents and forms instantly."
+              responseTime="1200ms"
+              successRate="95.0%"
+              monthlyCalls="8M+"
+              startingPrice="₹5.00"
+              href="/apis/ocr-document"
             />
             <APICard 
               name="UPI Collection"

@@ -43,7 +43,7 @@ export default function HostingHub() {
                   { text: "Container Architecture: Shared Docker / Kubernetes Pods", included: true },
                   { text: "CDN & Egress: Global Edge Network (1TB Cap)", included: true },
                   { text: "Storage: Standard NVMe SSD Quotas", included: true },
-                  { text: "Custom Disaster Recovery Strategy", included: false }
+                  { text: "Enterprise Disaster Recovery Strategy", included: false }
                 ]
               }}
               section3={{
@@ -59,7 +59,7 @@ export default function HostingHub() {
             />
             <HostingCard 
               title="Hosting Pro"
-              description="Run mission-critical fintech workloads smoothly. Great for scaling DSA platforms needing RBI compliance."
+              description="Run mission-critical financial workloads smoothly. Great for scaling DSA platforms needing RBI compliance."
               strikePrice="₹59,000"
               price="₹49,000"
               period=" / yr"
@@ -80,7 +80,7 @@ export default function HostingHub() {
                   { text: "Compute Architecture: Dedicated Virtual Private Server (VPS)", included: true },
                   { text: "Database Engine: Real-Time Active-Active Replication Nodes", included: true },
                   { text: "Cloud Residency: Mumbai Region (AWS / GCP Tier-1 DCs)", included: true },
-                  { text: "Custom Disaster Recovery Strategy", included: false }
+                  { text: "Enterprise Disaster Recovery Strategy", included: false }
                 ]
               }}
               section3={{
@@ -96,15 +96,15 @@ export default function HostingHub() {
             />
             <HostingCard 
               title="Hosting Enterprise"
-              description="Maximum isolation, zero noisy neighbors, and custom SLA backing for large-scale financial institutions."
-              price="Custom"
+              description="Maximum isolation, zero noisy neighbors, and enterprise SLA backing for large-scale financial institutions."
+              price="Enterprise"
               period=""
               features={[
                 { text: "Physically Isolated Bare-Metal Environments (Zero Noisy Neighbors)", included: true },
-                { text: "Custom Egress Bandwidth & Dedicated Fiber Routing", included: true },
-                { text: "Custom Disaster Recovery & Point-In-Time Restore Strategy", included: true },
+                { text: "Enterprise Egress Bandwidth & Dedicated Fiber Routing", included: true },
+                { text: "Enterprise Disaster Recovery & Point-In-Time Restore Strategy", included: true },
                 { text: "Real-Time Active-Active Database Clusters with Multi-Region Failover", included: true },
-                { text: "Custom Web Application Firewall (WAF) & Rate-Limiting Rules", included: true },
+                { text: "Advanced Web Application Firewall (WAF) & Rate-Limiting Rules", included: true },
                 { text: "Strict 99.99% Uptime SLA with Financial Backing", included: true },
                 { text: "Dedicated Technical Account Manager (TAM)", included: true }
               ]}
@@ -112,15 +112,15 @@ export default function HostingHub() {
                 title: "Build with:",
                 items: [
                   { text: "Compute Architecture: Physically Isolated Bare-Metal Servers", included: true },
-                  { text: "Disaster Recovery: Custom Point-In-Time Restore Strategy", included: true },
-                  { text: "Hybrid / On-Premise: Custom VPC / Dedicated Cloud Interconnects", included: true },
-                  { text: "Custom Integration: Tailored CI/CD Pipeline & Architecture Setup", included: true }
+                  { text: "Disaster Recovery: Enterprise Point-In-Time Restore Strategy", included: true },
+                  { text: "Hybrid / On-Premise: Enterprise VPC / Dedicated Cloud Interconnects", included: true },
+                  { text: "Advanced Automation: Tailored CI/CD Pipeline & Architecture Setup", included: true }
                 ]
               }}
               section3={{
                 title: "Protect & comply:",
                 items: [
-                  { text: "Enterprise Security: Custom WAF & Granular Rate-Limiting Rules", included: true },
+                  { text: "Enterprise Security: Advanced WAF & Granular Rate-Limiting Rules", included: true },
                   { text: "Compliance Reporting: SOC2 Type II & ISO 27001 Readiness", included: true },
                   { text: "Data Localization: 100% RBI Compliant AES-256 Encryption", included: true },
                   { text: "Dedicated Support: 24/7 Dedicated TAM via Direct Phone & Slack", included: true }
@@ -141,14 +141,14 @@ export default function HostingHub() {
             <HostingCard 
               title="DB Node"
               description="Optimized for high-IOPS database hosting."
-              price="Custom"
+              price="Enterprise"
               features={["32 Core AMD EPYC", "128GB ECC RAM", "2TB NVMe Raid 1", "SOC2 Compliance Certs"]}
               href="/contact"
             />
             <HostingCard 
               title="GPU Cluster"
               description="AI model inference and training nodes."
-              price="Custom"
+              price="Enterprise"
               isPopular={true}
               features={["Dual NVIDIA A100", "256GB ECC RAM", "4TB NVMe SSD", "100Gbps Internal Network"]}
               href="/contact"
@@ -156,8 +156,8 @@ export default function HostingHub() {
             <HostingCard 
               title="Enterprise Vault"
               description="Physically isolated hardware for financial ledgers."
-              price="Custom"
-              features={["Custom CPU config", "Hardware Security Module", "Private Cage", "24/7 On-site Hands"]}
+              price="Enterprise"
+              features={["Advanced CPU config", "Hardware Security Module", "Private Cage", "24/7 On-site Hands"]}
               href="/enterprise/contact"
             />
           </div>

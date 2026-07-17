@@ -13,7 +13,7 @@ export default function ContactUs() {
           <span className="text-[10px] font-bold text-emerald-500 uppercase tracking-[0.3em] block mb-4">Get in Touch</span>
           <h1 className="text-4xl md:text-5xl font-extrabold text-white tracking-tight mb-6">Contact Sales & Support</h1>
           <p className="text-lg text-zinc-400 font-light">
-            Whether you need custom enterprise pricing or technical support, our team is ready to help you scale.
+            Whether you need tailored enterprise pricing or technical support, our team is ready to help you scale.
           </p>
         </div>
 

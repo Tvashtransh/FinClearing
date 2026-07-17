@@ -161,7 +161,7 @@ export default async function APIDetails({ params }: { params: Promise<{ id: str
           {/* Pricing */}
           <div className="bg-zinc-900/30 border border-zinc-800 rounded-2xl p-6">
             <h3 className="text-lg font-bold text-white mb-2">Pricing Structure</h3>
-            <p className="text-sm text-zinc-400 mb-6 font-light">Pay only for successful requests.</p>
+            <p className="text-sm text-zinc-400 mb-6 font-light">Pay only for successful requests via prepaid API credits.</p>
             
             <div className="space-y-4">
               <div className="flex justify-between items-center border-b border-zinc-800 pb-3">
@@ -174,7 +174,7 @@ export default async function APIDetails({ params }: { params: Promise<{ id: str
               </div>
               <div className="flex justify-between items-center">
                 <span className="text-zinc-300 text-sm">Enterprise</span>
-                <span className="text-white font-mono font-bold text-sm">Custom Pricing</span>
+                <span className="text-white font-mono font-bold text-sm">Enterprise Pricing</span>
               </div>
             </div>
           </div>

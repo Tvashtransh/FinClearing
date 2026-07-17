@@ -104,7 +104,7 @@ export default function Home() {
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] max-w-[100vw] bg-blue-900/10 rounded-full blur-[120px] pointer-events-none -z-10"></div>
         
         <div className="text-center space-y-4 max-w-2xl mx-auto mb-16">
-          <span className="text-[10px] font-bold text-blue-500 uppercase tracking-[0.3em] block">Managed Infrastructure</span>
+          <span className="text-[10px] font-bold text-blue-500 uppercase tracking-[0.3em] block">Cloud Infrastructure</span>
           <h3 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight leading-none">
             Hosting Built for Developers
           </h3>
@@ -145,11 +145,11 @@ export default function Home() {
           />
           <HostingCard 
             title="Hosting Enterprise"
-            description="Maximum isolation and custom SLA backing for large-scale operations."
-            price="Custom"
+            description="Maximum isolation and enterprise SLA backing for large-scale operations."
+            price="Enterprise"
             features={[
               "Dedicated Bare-Metal Nodes",
-              "Custom Network Topology",
+              "Enterprise Network Topology",
               "Zero Noisy Neighbors",
               "Dedicated Account Manager",
               "On-Premise Deployment Options"

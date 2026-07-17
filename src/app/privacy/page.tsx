@@ -14,7 +14,7 @@ export default function PrivacyPolicy() {
           To provision and manage your account, we collect necessary operational data, including your registered email address and authentication details. We also collect technical logs, such as IP addresses and API request headers, which are strictly necessary to monitor server infrastructure, enforce rate limits, and prevent abuse.
         </p>
         <p className="mb-6">
-          Regarding financial data: We process payment authentication tokens routed securely through certified payment processors. <strong>We do NOT store, process, or transmit raw credit card numbers or UPI PINs on our servers.</strong>
+          Regarding financial data: We process payment authentication tokens routed securely through certified payment processors. <strong>We do NOT store, process, or transmit raw credit card numbers on our servers.</strong>
         </p>
 
         <h3 className="text-xl font-bold text-white mt-8 mb-4">2. Data Security</h3>
@@ -24,7 +24,7 @@ export default function PrivacyPolicy() {
 
         <h3 className="text-xl font-bold text-white mt-8 mb-4">3. Third-Party Disclosures</h3>
         <p className="mb-6">
-          Your trust is paramount. We do not sell, rent, or trade your personal information to marketing agencies. Data is strictly shared only with our certified banking partners and authorized payment aggregators (such as Cashfree Payments) for the sole purpose of facilitating transaction processing, validating identity, and executing recurring mandates as required by RBI guidelines.
+          Your trust is paramount. We do not sell, rent, or trade your personal information to marketing agencies. Data is strictly shared only with our certified global merchant of record partners for the sole purpose of facilitating transaction processing and executing recurring mandates.
         </p>
       </div>
     </div>

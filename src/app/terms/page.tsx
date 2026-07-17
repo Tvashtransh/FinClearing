@@ -6,7 +6,7 @@ export default function TermsAndConditions() {
       <div className="max-w-3xl mx-auto px-6 prose prose-invert prose-zinc">
         <h1 className="text-4xl font-extrabold text-white mb-8">TERMS & CONDITIONS</h1>
         <p className="mb-6">
-          Welcome to <strong>apiexplore.shop</strong>. By accessing or using our developer platform, you agree to be bound by the following Terms & Conditions.
+          Welcome to <strong>apiexplore.shop</strong>. The platform apiexplore.shop is an independent software and infrastructure web service owned and operated by Priyanshu Pethari. By accessing or using our developer platform, you agree to be bound by the following Terms & Conditions.
         </p>
 
         <h3 className="text-xl font-bold text-white mt-8 mb-4">1. Services Provided</h3>
@@ -26,7 +26,7 @@ export default function TermsAndConditions() {
 
         <h3 className="text-xl font-bold text-white mt-8 mb-4">4. Subscription Billing & Payments</h3>
         <p className="mb-6">
-          apiexplore.shop operates on a recurring subscription model (billed monthly or annually). Payments are processed securely via RBI-compliant third-party payment gateways. By providing your payment information, you authorize apiexplore.shop to establish a recurring mandate (via UPI AutoPay or Cards) to automatically deduct subscription fees according to your selected billing cycle.
+          apiexplore.shop operates on a recurring subscription model (billed monthly or annually). Payments are processed securely via global merchant of record platforms. By providing your payment information, you authorize apiexplore.shop to establish a recurring mandate to automatically deduct subscription fees according to your selected billing cycle.
         </p>
 
         <h3 className="text-xl font-bold text-white mt-8 mb-4">5. Governing Law</h3>

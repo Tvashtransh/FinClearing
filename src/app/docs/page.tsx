@@ -44,7 +44,7 @@ export default function DocsPage() {
           <div className="mb-12" id="introduction">
             <h1 className="text-4xl text-white tracking-tight mb-4">Documentation & Quickstart Guide</h1>
             <p className="text-lg text-zinc-400 font-light leading-relaxed">
-              Welcome to the <strong>apiexplore.shop</strong> core developer reference. Our globally distributed network allows you to integrate production-ready algorithmic utilities and managed containerized hosting environments seamlessly via a unified API gateway. All interactions require a secure Bearer token header.
+              Welcome to the <strong>apiexplore.shop</strong> core developer reference. Our globally distributed network allows you to integrate production-ready algorithmic utilities and cloud containerized hosting environments seamlessly via a unified API gateway. All interactions require a secure Bearer token header.
             </p>
             <div className="mt-6 rounded-xl overflow-hidden border border-zinc-800 bg-[#111] shadow-xl">
               <div className="bg-[#1A1A1A] px-4 py-2 border-b border-zinc-800 flex items-center gap-2 text-xs font-mono text-zinc-400">
@@ -255,7 +255,7 @@ export default function DocsPage() {
             <ul className="space-y-2 mt-4 text-sm text-zinc-400 list-disc pl-5">
               <li><strong className="text-white">Base Tier:</strong> 5 Requests per second (QPS). Maximum 10,000 requests per month.</li>
               <li><strong className="text-white">Scale Tier:</strong> 50 Requests per second (QPS). Maximum 1,000,000 requests per month.</li>
-              <li><strong className="text-white">Enterprise Tier:</strong> Custom rate limits based on SLA terms, capable of scaling to 10,000+ QPS.</li>
+              <li><strong className="text-white">Enterprise Tier:</strong> Enterprise rate limits based on SLA terms, capable of scaling to 10,000+ QPS.</li>
             </ul>
             <p className="mt-4 text-sm text-zinc-400">If you exceed your QPS limit, you will receive a <code>429 Too Many Requests</code> HTTP response. You should implement a Retry-After header strategy to handle burst traffic gracefully.</p>
           </div>

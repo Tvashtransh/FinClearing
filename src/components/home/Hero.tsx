@@ -20,7 +20,7 @@ export default function Hero() {
           </h2>
 
           <p className="text-zinc-400 text-lg sm:text-xl font-light leading-relaxed max-w-2xl">
-            Empower your network with production-ready APIs, managed hosting, and enterprise-grade security. Purpose-built for scaling developers, agile startups, and modern tech products.
+            Empower your network with production-ready APIs, cloud hosting, and enterprise-grade security. Purpose-built for scaling developers, agile startups, and modern tech products.
           </p>
 
           <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 pt-4">
@@ -85,7 +85,7 @@ export default function Hero() {
                 
                 <div className="space-y-2 text-xs font-mono">
                   <div className="flex items-center justify-between p-2.5 rounded bg-zinc-900/40 border border-zinc-900 hover:bg-zinc-900/80 transition-colors">
-                    <span className="text-zinc-300">POST /api/v1/kyc/verify</span>
+                    <span className="text-zinc-300">POST /api/v1/auth/verify</span>
                     <span className="text-emerald-400 font-bold">200 OK — 1.2ms</span>
                   </div>
                   <div className="flex items-center justify-between p-2.5 rounded bg-zinc-900/40 border border-zinc-900 hover:bg-zinc-900/80 transition-colors">

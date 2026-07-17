@@ -34,7 +34,7 @@ export default async function HostingDetails({ params }: { params: Promise<{ id:
                   Deploy Now
                 </button>
                 <button className="px-6 py-3 rounded-xl text-sm font-bold tracking-wider text-white bg-zinc-900 border border-zinc-700 hover:bg-zinc-800 transition-all uppercase flex items-center gap-2">
-                  <Gear weight="duotone" className="w-4 h-4" /> Customize Specs
+                  <Gear weight="duotone" className="w-4 h-4" /> Configure Specs
                 </button>
               </div>
             </div>

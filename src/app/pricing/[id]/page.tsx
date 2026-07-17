@@ -7,11 +7,11 @@ import { ArrowLeft, CheckCircle, CaretDown, CreditCard } from "@phosphor-icons/r
 // Mock Data - In a real app this would be fetched based on ID
 const plansData = {
   "dsa-base": { name: "DSA Base", type: "DSA API", basePrice: 1499, monthlyStrike: 2999, yearlyPrice: 17988, isHosting: false, features: ["Core Endpoints: Arrays, Strings, Stacks", "Up to 10,000 API Requests/mo", "Multi-language Polyglot Snippets"] },
-  "dsa-scale": { name: "DSA Scale", type: "DSA API", basePrice: 5999, monthlyStrike: 13999, yearlyPrice: 71988, isHosting: false, features: ["Advanced Endpoints Included", "Unlimited API Requests (1M Fair Use)", "Clerk Enterprise Auth Gateway"] },
-  "dsa-enterprise": { name: "DSA Enterprise", type: "DSA API", basePrice: 0, isCustom: true, isHosting: false, features: ["Custom Internal Endpoint Integration", "Strict 99.99% Uptime SLA", "24/7 Dedicated Support Engineer"] },
+  "dsa-scale": { name: "DSA Scale", type: "DSA API", basePrice: 5999, monthlyStrike: 13999, yearlyPrice: 71988, isHosting: false, features: ["Advanced Endpoints Included", "Unlimited API Requests (1M Fair Use)", "Enterprise Access Pipeline"] },
+  "dsa-enterprise": { name: "DSA Enterprise", type: "DSA API", basePrice: 0, isCustom: true, isHosting: false, features: ["Advanced Internal Endpoint Routing", "Strict 99.99% Uptime SLA", "24/7 Dedicated Support Engineer"] },
   "hosting-base": { name: "Hosting Base", type: "Hosting", basePrice: 19000, isHosting: true, features: ["Shared Containerized Pods", "1TB Monthly Egress Bandwidth", "Automated Daily Database Snapshots"] },
   "hosting-pro": { name: "Hosting Pro", type: "Hosting", basePrice: 49000, isHosting: true, features: ["Isolated Mumbai Region VPS", "Unlimited Bandwidth (Capped at 10TB)", "Real-Time Active-Active Database Replication"] },
-  "hosting-enterprise": { name: "Hosting Enterprise", type: "Hosting", basePrice: 0, isCustom: true, isHosting: true, features: ["Physically Isolated Bare-Metal Environments", "Custom Web Application Firewall (WAF)", "Strict 99.99% Uptime SLA"] }
+  "hosting-enterprise": { name: "Hosting Enterprise", type: "Hosting", basePrice: 0, isCustom: true, isHosting: true, features: ["Physically Isolated Bare-Metal Environments", "Advanced Web Application Firewall (WAF)", "Strict 99.99% Uptime SLA"] }
 };
 
 export default function CheckoutCartPage({ params }: { params: Promise<{ id: string }> }) {
@@ -77,7 +77,7 @@ export default function CheckoutCartPage({ params }: { params: Promise<{ id: str
         <div className="max-w-3xl mx-auto px-6 w-full">
            <h1 className="text-4xl font-extrabold text-white tracking-tight mb-8">Contact Sales</h1>
            <div className="bg-zinc-900/80 p-8 rounded-2xl shadow-sm border border-zinc-800">
-              <p className="text-zinc-400 mb-6">Please reach out to our enterprise team to configure this custom deployment.</p>
+              <p className="text-zinc-400 mb-6">Please reach out to our enterprise team to configure this enterprise deployment.</p>
               <Link href="/contact" className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-bold hover:bg-blue-500 transition-colors">Contact Us</Link>
            </div>
         </div>

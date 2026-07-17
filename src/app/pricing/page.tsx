@@ -9,7 +9,7 @@ const dsaPlans = [
     id: "dsa-base",
     title: "DSA Base",
     icon: null,
-    description: "Get your firm started. Best for standalone agents or simple validation pipelines.",
+    description: "Get your firm started. Best for standalone developers or simple validation pipelines.",
     isCustom: false,
     price: {
       monthly: 1499,
@@ -32,11 +32,11 @@ const dsaPlans = [
         { text: "Core Endpoints: Arrays, Strings, Stacks", included: true },
         { text: "Memory Optimization: O(1) space algorithms", included: true },
         { text: "Polyglot Snippets: Python 3.10, Java 17, C++20", included: true },
-        { text: "Custom Internal Endpoint Integration", included: false },
+        { text: "Advanced Internal Endpoint Routing", included: false },
       ],
       communicate: [
         { text: "Email Support Ticket System", included: true },
-        { text: "Custom Webhook Notification Pipelines", included: false },
+        { text: "Advanced Webhook Notification Pipelines", included: false },
         { text: "Priority Slack Connect", included: false },
       ]
     }
@@ -69,12 +69,12 @@ const dsaPlans = [
         { text: "Advanced Endpoints: Graphs, Dynamic Programming & Trees", included: true },
         { text: "Secure API Token Access Management (Role-Based Access Pipeline)", included: true },
         { text: "Polyglot Snippets: Python 3.10, Java 17, C++20", included: true },
-        { text: "Custom Internal Endpoint Integration", included: false },
+        { text: "Advanced Internal Endpoint Routing", included: false },
       ],
       communicate: [
         { text: "Email Support Ticket System", included: true },
         { text: "Priority Slack Connect Channel", included: true },
-        { text: "Custom Webhook Notification Pipelines", included: false },
+        { text: "Advanced Webhook Notification Pipelines", included: false },
       ]
     }
   },
@@ -82,18 +82,18 @@ const dsaPlans = [
     id: "dsa-enterprise",
     title: "DSA Enterprise",
     icon: "🏢",
-    badge: "Custom Offer",
+    badge: "Enterprise Offer",
     description: "Dedicated scale and absolute throughput for enterprise-grade applications and production systems.",
     isCustom: true,
     price: {
-      customLabel: "Custom Pricing",
+      customLabel: "Enterprise Pricing",
       yearlyLabel: "Tailored contract options with volume-based deployment models."
     },
     features: {
       main: [
         { text: "Unlimited Uncapped Throughput", included: true },
-        { text: "Dedicated QPS (Custom Rate Limits)", included: true },
-        { text: "Custom Enterprise Gateway Access", included: true },
+        { text: "Dedicated QPS (Enterprise Rate Limits)", included: true },
+        { text: "Advanced Enterprise Gateway Access", included: true },
         { text: "Strict 99.99% Uptime SLA with Financial Backing", included: true },
         { text: "Full Data Structure Suite Included", included: true },
         { text: "Unlimited Algorithmic Performance Sandbox Runs", included: true },
@@ -101,15 +101,15 @@ const dsaPlans = [
         { text: "24/7 Dedicated Support Engineer Line", included: true },
       ],
       buildWith: [
-        { text: "All Endpoints + Custom Internal Endpoint Integration", included: true },
+        { text: "All Endpoints + Advanced Internal Endpoint Routing", included: true },
         { text: "Secure API Token Access Management (Role-Based Access Pipeline)", included: true },
         { text: "On-Premise or VPC Deployment Options (AWS / GCP)", included: true },
-        { text: "Custom Integration Pipeline Support", included: true },
+        { text: "Advanced Deployment Pipeline Support", included: true },
       ],
       communicate: [
         { text: "24/7 Phone Support via Dedicated Direct Line", included: true },
         { text: "Priority Slack Connect Channel", included: true },
-        { text: "Custom Webhook Notification Pipelines (Includes 1,500 Alerts)", included: true },
+        { text: "Advanced Webhook Notification Pipelines (Includes 1,500 Alerts)", included: true },
       ]
     }
   }

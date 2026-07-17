@@ -61,7 +61,7 @@ export default function HostingCard({
         )}
         <div className="flex items-end gap-1">
           <span className="text-4xl font-extrabold text-white tracking-tight">{price}</span>
-          {price !== "Custom" && <span className="text-sm text-zinc-500 font-light pb-1.5">{period}</span>}
+          {price !== "Enterprise" && <span className="text-sm text-zinc-500 font-light pb-1.5">{period}</span>}
         </div>
       </div>
 

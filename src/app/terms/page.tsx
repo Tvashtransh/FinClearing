@@ -6,12 +6,12 @@ export default function TermsAndConditions() {
       <div className="max-w-3xl mx-auto px-6 prose prose-invert prose-zinc">
         <h1 className="text-4xl font-extrabold text-white mb-8">TERMS & CONDITIONS</h1>
         <p className="mb-6">
-          Welcome to <strong>apiexplore.shop</strong>. The platform apiexplore.shop is an independent software and API routing web service owned and operated by Priyanshu Pethari. By accessing or using our developer platform, you agree to be bound by the following Terms & Conditions.
+          Welcome to <strong>apiexplore.shop</strong>. The platform apiexplore.shop is an independent Software-as-a-Service (SaaS) application owned and operated by Priyanshu Pethari. By accessing or using our developer platform, you agree to be bound by the following Terms & Conditions.
         </p>
 
         <h3 className="text-xl font-bold text-white mt-8 mb-4">1. Services Provided</h3>
         <p className="mb-6">
-          apiexplore.shop provides developers with subscription-based access to proprietary Data Structures & Algorithms (DSA) API endpoints and high-performance algorithmic execution tiers. These services are delivered digitally upon successful subscription activation.
+          apiexplore.shop is an automated, self-serve Software-as-a-Service (SaaS) application that provides standardized REST API endpoints for algorithmic data validation and payload formatting. We do not offer custom software development, IT consulting, or human services.
         </p>
 
         <h3 className="text-xl font-bold text-white mt-8 mb-4">2. Account Security & Responsibilities</h3>

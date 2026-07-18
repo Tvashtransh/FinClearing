@@ -19,7 +19,7 @@ export default function Footer() {
             <span className="text-sm font-extrabold tracking-widest text-white uppercase">APIExplore</span>
           </div>
           <p className="font-light leading-relaxed">
-            The sovereign validation engine for high-scale loan distribution networks, expanded into a complete developer marketplace for APIs and Data Routing.
+            The sovereign validation engine for high-scale loan distribution networks, expanded into a complete developer marketplace for APIs and Data Validation.
           </p>
           <p className="text-[11px] mt-4 font-light">
             © 2026 apiexplore.shop. All rights reserved.
@@ -31,7 +31,7 @@ export default function Footer() {
           <h6 className="font-bold text-white uppercase text-[10px] tracking-widest">Platform</h6>
           <ul className="space-y-2.5 font-light">
             <li><Link href="/apis" className="hover:text-white transition-colors">API Marketplace</Link></li>
-            <li><Link href="/routing" className="hover:text-white transition-colors">Routing Tiers</Link></li>
+            <li><Link href="/endpoints" className="hover:text-white transition-colors">Endpoint Tiers</Link></li>
           </ul>
         </div>
 

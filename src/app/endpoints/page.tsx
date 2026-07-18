@@ -1,35 +1,35 @@
 import HostingCard from "@/components/ui/HostingCard";
 
-export default function RoutingHub() {
+export default function EndpointsHub() {
   return (
     <div className="bg-brand-obsidian min-h-screen pt-12 pb-24">
       <div className="max-w-7xl mx-auto px-6">
         
         {/* Header Section */}
         <div className="mb-16 border-b border-zinc-900 pb-12 text-center max-w-3xl mx-auto">
-          <span className="text-[10px] font-bold text-blue-500 uppercase tracking-[0.3em] block mb-4">Data Routing Endpoints</span>
+          <span className="text-[10px] font-bold text-blue-500 uppercase tracking-[0.3em] block mb-4">API Endpoint Tiers</span>
           <h1 className="text-4xl md:text-5xl font-extrabold text-white tracking-tight mb-6">API Execution Tiers</h1>
           <p className="text-lg text-zinc-400 font-light">
-            Scale your applications with our globally distributed API routing and algorithmic validation endpoints.
+            Scale your applications with our globally distributed validation and algorithmic formatting endpoints.
           </p>
         </div>
 
-        {/* ── ROUTING PLANS ─────────────────────────────────────────────────── */}
+        {/* ── API PLANS ─────────────────────────────────────────────────── */}
         <div className="mb-24">
           <div className="flex items-center gap-4 mb-8">
-            <h2 className="text-2xl font-bold text-white">API Routing Plans</h2>
+            <h2 className="text-2xl font-bold text-white">API Tiers</h2>
             <div className="h-px flex-1 bg-zinc-900"></div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <HostingCard 
               title="Developer Plan"
-              description="Start routing data. Best for early-stage DSA tools and lightweight validation workloads."
+              description="Start processing payloads. Best for early-stage DSA tools and lightweight validation workloads."
               strikePrice="₹24,000"
               price="₹19,000"
               period=" / yr"
               features={[
                 { text: "Shared SaaS Execution Limits", included: true },
-                { text: "1TB Monthly Data Routing via Global CDN", included: true },
+                { text: "1TB Monthly Algorithmic Validation via Global CDN", included: true },
                 { text: "Automated Daily Database Snapshots (7-Day Retention Vault)", included: true },
                 { text: "Let's Encrypt Wildcard SSL Certificates (Auto-Renewing)", included: true },
                 { text: "99.9% API Uptime Guarantee", included: true },
@@ -40,8 +40,8 @@ export default function RoutingHub() {
               section2={{
                 title: "Build with:",
                 items: [
-                  { text: "Routing Architecture: Shared Execution Pools", included: true },
-                  { text: "Data Routing: Global Edge Network (1TB Cap)", included: true },
+                  { text: "API Architecture: Shared Execution Pools", included: true },
+                  { text: "Data Processing: Global Edge Network (1TB Cap)", included: true },
                   { text: "Payload Limits: Standard Validation Quotas", included: true },
                   { text: "Enterprise Rate Limiting Strategy", included: false }
                 ]
@@ -55,29 +55,29 @@ export default function RoutingHub() {
                   { text: "SOC2 & ISO 27001 Readiness Reporting", included: false }
                 ]
               }}
-              href="/pricing/routing-base?term=1y"
+              href="/pricing/endpoints-base?term=1y"
             />
             <HostingCard 
               title="Pro API Plan"
-              description="Route mission-critical data payloads smoothly. Great for scaling DSA platforms needing RBI compliance."
+              description="Validate mission-critical data payloads smoothly. Great for scaling DSA platforms needing RBI compliance."
               strikePrice="₹59,000"
               price="₹49,000"
               period=" / yr"
               isPopular={true}
               features={[
-                { text: "Isolated Routing Environment (Mumbai Data Residency)", included: true },
-                { text: "Unlimited Data Routing (Capped at 10TB Burst Routing)", included: true },
+                { text: "Isolated Execution Environment (Mumbai Data Residency)", included: true },
+                { text: "Unlimited Algorithmic Validation (Capped at 10TB Burst Processing)", included: true },
                 { text: "Real-Time Active-Active Database Replication Nodes", included: true },
                 { text: "Automated Daily Database Snapshots (Extended Retention Vault)", included: true },
                 { text: "Let's Encrypt Wildcard SSL Certificates (Auto-Renewing)", included: true },
                 { text: "99.95% API Uptime Guarantee", included: true },
                 { text: "Priority 24/7 DevOps Support via Ticket & Chat", included: true },
-                { text: "Isolated Routing Endpoints", included: false }
+                { text: "Isolated Validation Endpoints", included: false }
               ]}
               section2={{
                 title: "Build with:",
                 items: [
-                  { text: "Routing Architecture: Isolated Validation Environment", included: true },
+                  { text: "API Architecture: Isolated Validation Environment", included: true },
                   { text: "Execution Engine: Real-Time Algorithmic Processors", included: true },
                   { text: "Data Residency: Mumbai Region Logging", included: true },
                   { text: "Enterprise Disaster Recovery Strategy", included: false }
@@ -92,16 +92,16 @@ export default function RoutingHub() {
                   { text: "SOC2 & ISO 27001 Readiness Reporting", included: false }
                 ]
               }}
-              href="/pricing/routing-pro?term=1y"
+              href="/pricing/endpoints-pro?term=1y"
             />
             <HostingCard 
-              title="Enterprise Routing Plan"
+              title="Enterprise Execution Plan"
               description="Maximum isolation, zero noisy neighbors, and enterprise SLA backing for large-scale financial institutions."
               price="Enterprise"
               period=""
               features={[
-                { text: "Isolated Routing Endpoints (Zero Rate-Limit Collisions)", included: true },
-                { text: "Enterprise Data Routing & Priority Fiber Links", included: true },
+                { text: "Isolated Validation Endpoints (Zero Rate-Limit Collisions)", included: true },
+                { text: "Enterprise Data Processing & Priority Fiber Links", included: true },
                 { text: "Enterprise Disaster Recovery & Point-In-Time Restore Strategy", included: true },
                 { text: "Real-Time Active-Active Database Clusters with Multi-Region Failover", included: true },
                 { text: "Advanced Web Application Firewall (WAF) & Rate-Limiting Rules", included: true },
@@ -111,9 +111,9 @@ export default function RoutingHub() {
               section2={{
                 title: "Build with:",
                 items: [
-                  { text: "Routing Architecture: Isolated API Endpoints", included: true },
+                  { text: "API Architecture: Isolated API Endpoints", included: true },
                   { text: "Disaster Recovery: Enterprise Point-In-Time Log Restore", included: true },
-                  { text: "Hybrid Routing: Enterprise VPC Interconnects", included: true },
+                  { text: "Hybrid Processing: Enterprise VPC Interconnects", included: true },
                   { text: "Advanced Automation: Tailored CI/CD Validation Pipeline", included: true }
                 ]
               }}
@@ -142,22 +142,22 @@ export default function RoutingHub() {
               title="High-IOPS Validation Tier"
               description="Optimized for high-throughput payload validation."
               price="Enterprise"
-              features={["32K Requests/sec", "Enterprise Rate Limits", "Custom Routing Logic", "SOC2 Compliance Certs"]}
+              features={["32K Requests/sec", "Enterprise Rate Limits", "Standardized Validation Logic", "SOC2 Compliance Certs"]}
               href="/contact"
             />
             <HostingCard 
-              title="AI Routing Cluster"
-              description="Advanced LLM routing and validation endpoints."
+              title="AI Execution Cluster"
+              description="Advanced LLM execution and validation endpoints."
               price="Enterprise"
               isPopular={true}
-              features={["Advanced LLM Endpoints", "High-Volume Validation", "Custom Execution Sandbox", "100Gbps Internal Routing"]}
+              features={["Advanced LLM Endpoints", "High-Volume Validation", "Standardized Execution Sandbox", "100Gbps Internal Processing"]}
               href="/contact"
             />
             <HostingCard 
               title="Secure Vault Endpoints"
-              description="Isolated compliance routing for financial payloads."
+              description="Isolated compliance processing for financial payloads."
               price="Enterprise"
-              features={["Isolated Compliance Routing", "Private API Cage", "Priority Network Link", "24/7 Premium Support"]}
+              features={["Isolated Compliance Processing", "Private API Cage", "Priority Network Link", "24/7 Premium Support"]}
               href="/enterprise/contact"
             />
           </div>

@@ -20,7 +20,7 @@ export default function Hero() {
           </h2>
 
           <p className="text-zinc-400 text-lg sm:text-xl font-light leading-relaxed max-w-2xl">
-            Empower your network with production-ready APIs, payload routing, and enterprise-grade security. Purpose-built for scaling developers, agile startups, and modern tech products.
+            apiexplore.shop is an automated, self-serve Software-as-a-Service (SaaS) platform. Empower your network with production-ready APIs, payload processing, and enterprise-grade security. Purpose-built for scaling developers, agile startups, and modern tech products.
           </p>
 
           <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 pt-4">
@@ -28,8 +28,8 @@ export default function Hero() {
               <span>Explore APIs</span>
               <ArrowUpRight weight="duotone" className="h-4 w-4" />
             </Link>
-            <Link href="/routing" className="px-8 py-4 rounded-xl text-sm font-bold tracking-wider text-zinc-300 hover:text-white bg-zinc-900/60 border border-zinc-800 hover:border-zinc-700 transition-all duration-200 uppercase flex items-center justify-center gap-2">
-              <span>View Routing Plans</span>
+            <Link href="/endpoints" className="px-8 py-4 rounded-xl text-sm font-bold tracking-wider text-zinc-300 hover:text-white bg-zinc-900/60 border border-zinc-800 hover:border-zinc-700 transition-all duration-200 uppercase flex items-center justify-center gap-2">
+              <span>View API Plans</span>
             </Link>
           </div>
 
@@ -81,7 +81,7 @@ export default function Hero() {
 
               {/* Active Pipeline */}
               <div className="space-y-2">
-                <span className="text-[10px] text-zinc-500 uppercase font-semibold tracking-wider block">Active Pipeline Routing</span>
+                <span className="text-[10px] text-zinc-500 uppercase font-semibold tracking-wider block">Active API Execution</span>
                 
                 <div className="space-y-2 text-xs font-mono">
                   <div className="flex items-center justify-between p-2.5 rounded bg-zinc-900/40 border border-zinc-900 hover:bg-zinc-900/80 transition-colors">
@@ -89,7 +89,7 @@ export default function Hero() {
                     <span className="text-emerald-400 font-bold">200 OK — 1.2ms</span>
                   </div>
                   <div className="flex items-center justify-between p-2.5 rounded bg-zinc-900/40 border border-zinc-900 hover:bg-zinc-900/80 transition-colors">
-                    <span className="text-zinc-300">GET /api/v1/nodes/mumbai-01</span>
+                    <span className="text-zinc-300">GET /api/v1/endpoints/mumbai-01</span>
                     <span className="text-emerald-400 font-bold">200 OK — 0.4ms</span>
                   </div>
                   <div className="flex items-center justify-between p-2.5 rounded bg-zinc-900/40 border border-zinc-900 hover:bg-zinc-900/80 transition-colors">
@@ -103,9 +103,9 @@ export default function Hero() {
               <div className="p-3 bg-zinc-900/50 border border-zinc-800/80 rounded-xl flex items-center justify-between">
                 <div className="flex items-center gap-2">
                   <div className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></div>
-                  <span className="text-xs text-zinc-300">Enterprise Nodes Active</span>
+                  <span className="text-xs text-zinc-300">Enterprise Endpoints Active</span>
                 </div>
-                <span className="text-[10px] text-zinc-500 font-mono">99.99% Uptime</span>
+                <span className="text-[10px] text-zinc-500 font-mono">99.99% API Uptime</span>
               </div>
             </div>
           </div>

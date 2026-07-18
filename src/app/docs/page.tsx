@@ -44,7 +44,7 @@ export default function DocsPage() {
           <div className="mb-12" id="introduction">
             <h1 className="text-4xl text-white tracking-tight mb-4">Documentation & Quickstart Guide</h1>
             <p className="text-lg text-zinc-400 font-light leading-relaxed">
-              Welcome to the <strong>apiexplore.shop</strong> core developer reference. Our globally distributed network allows you to integrate production-ready algorithmic utilities and scalable routing environments seamlessly via a unified API gateway. All interactions require a secure Bearer token header.
+              Welcome to the <strong>apiexplore.shop</strong> core developer reference. Our globally distributed network allows you to integrate production-ready algorithmic utilities and scalable execution environments seamlessly via a unified API token. All interactions require a secure Bearer token header.
             </p>
             <div className="mt-6 rounded-xl overflow-hidden border border-zinc-800 bg-[#111] shadow-xl">
               <div className="bg-[#1A1A1A] px-4 py-2 border-b border-zinc-800 flex items-center gap-2 text-xs font-mono text-zinc-400">
@@ -91,7 +91,7 @@ export default function DocsPage() {
             <h4 className="text-sm font-semibold text-white mt-8 mb-4">HTTP Request</h4>
             <div className="bg-zinc-900 border border-zinc-800 rounded-lg px-4 py-3 font-mono text-sm inline-flex items-center gap-3">
               <span className="text-blue-400 font-bold">POST</span>
-              <span className="text-zinc-300">/routing/execute</span>
+              <span className="text-zinc-300">/endpoints/execute</span>
             </div>
 
             <h4 className="text-sm font-semibold text-white mt-8 mb-4">Request Payload Body</h4>

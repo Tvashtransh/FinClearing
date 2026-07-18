@@ -1,4 +1,4 @@
-# APIExplore Quickstart and Node Access
+# APIExplore Quickstart and API Access
 
 Welcome to APIExplore!
 
@@ -15,5 +15,5 @@ Authorization: Bearer YOUR_SECRET_API_KEY
 Content-Type: application/json
 ```
 
-## Environment Status
-Your assigned routing endpoints are being provisioned. Your active gateway keys will automatically sync to your dashboard within 60 minutes.
+## Access Status
+Your assigned validation endpoints are being provisioned. Your active API keys will automatically sync to your dashboard within 60 minutes.

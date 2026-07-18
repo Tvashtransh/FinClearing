@@ -29,22 +29,22 @@ export default function Home() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           <CategoryCard 
-            title="API Routing" 
+            title="API Execution" 
             count={24} 
             icon={<Bank weight="duotone" className="h-6 w-6" />} 
-            href="/apis/routing" 
+            href="/apis" 
           />
           <CategoryCard 
             title="Code Execution" 
             count={12} 
             icon={<Fingerprint weight="duotone" className="h-6 w-6" />} 
-            href="/apis/routing" 
+            href="/apis" 
           />
           <CategoryCard 
             title="Data Validation" 
             count={18} 
             icon={<CreditCard weight="duotone" className="h-6 w-6" />} 
-            href="/apis/routing" 
+            href="/apis" 
           />
           <CategoryCard 
             title="AI & Optimization" 
@@ -66,7 +66,7 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
             <APICard 
               name="Code Execution Engine"
-              category="Routing"
+              category="Execution"
               description="Secure, isolated sandboxed runtime environment to compile and execute user code snippets across 15+ programming languages."
               responseTime="320ms"
               successRate="99.95%"
@@ -98,18 +98,18 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── ROUTING PLANS ─────────────────────────────────────────────────── */}
+      {/* ── API PLANS ─────────────────────────────────────────────────── */}
       <section className="py-24 max-w-7xl mx-auto px-6 relative overflow-hidden">
         {/* Background Gradients */}
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] max-w-[100vw] bg-blue-900/10 rounded-full blur-[120px] pointer-events-none -z-10"></div>
         
         <div className="text-center space-y-4 max-w-2xl mx-auto mb-16">
-          <span className="text-[10px] font-bold text-blue-500 uppercase tracking-[0.3em] block">API Routing & Execution</span>
+          <span className="text-[10px] font-bold text-blue-500 uppercase tracking-[0.3em]">API Execution Tiers</span>
           <h3 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight leading-none">
             API Tiers Built for Developers
           </h3>
           <p className="text-zinc-400 font-light leading-relaxed">
-            Execute your algorithmic workloads and route payloads securely with our enterprise-grade execution limits.
+            Execute your algorithmic workloads and process payloads securely with our enterprise-grade execution limits.
           </p>
         </div>
 
@@ -121,12 +121,12 @@ export default function Home() {
             period=" / yr"
             features={[
               "Shared SaaS Execution Limits",
-              "1TB Data Routing Quota",
+              "1TB Algorithmic Validation Quota",
               "Automated Daily Snapshots",
               "99.9% Uptime Guarantee",
               "DDoS Protection"
             ]}
-            href="/routing"
+            href="/endpoints"
           />
           <HostingCard 
             title="Pro API Plan"
@@ -136,19 +136,19 @@ export default function Home() {
             isPopular={true}
             features={[
               "Isolated Execution Environment",
-              "Unlimited Data Routing",
+              "Unlimited Algorithmic Validation",
               "Real-Time Validation Nodes",
               "99.95% Uptime Guarantee",
               "Priority 24/7 Support"
             ]}
-            href="/routing"
+            href="/endpoints"
           />
           <HostingCard 
-            title="Enterprise Routing Plan"
+            title="Enterprise Execution Plan"
             description="Maximum isolation and enterprise SLA backing for large-scale operations."
             price="Enterprise"
             features={[
-              "Isolated Routing Endpoints",
+              "Isolated Validation Endpoints",
               "Advanced Rate-Limiting",
               "Priority Account Support",
               "Enterprise Account Support",

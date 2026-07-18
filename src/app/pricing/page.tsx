@@ -21,7 +21,7 @@ const dsaPlans = [
       main: [
         { text: "10,000 API Requests/mo", included: true },
         { text: "5 QPS Rate Limit (via Redis Token Bucket)", included: true },
-        { text: "Standard API Gateway Access", included: true },
+        { text: "Standard API Secret Key Access", included: true },
         { text: "99.9% Uptime SLA", included: true },
         { text: "Advanced Endpoint Access", included: false },
         { text: "Real-Time Sandbox Verifications", included: false },
@@ -32,7 +32,7 @@ const dsaPlans = [
         { text: "Core Endpoints: Arrays, Strings, Stacks", included: true },
         { text: "Memory Optimization: O(1) space algorithms", included: true },
         { text: "Polyglot Snippets: Python 3.10, Java 17, C++20", included: true },
-        { text: "Advanced Internal Endpoint Routing", included: false },
+        { text: "Advanced Internal Endpoint Processing", included: false },
       ],
       communicate: [
         { text: "Email Support Ticket System", included: true },
@@ -58,7 +58,7 @@ const dsaPlans = [
       main: [
         { text: "Unlimited API Requests (1M Fair Use)", included: true },
         { text: "50 QPS Rate Limit", included: true },
-        { text: "Standard API Gateway Access", included: true },
+        { text: "Standard API Secret Key Access", included: true },
         { text: "99.9% Uptime SLA", included: true },
         { text: "Graphs, DP & Trees Endpoints Included", included: true },
         { text: "100 runs/mo Algorithmic Performance Sandbox", included: true },
@@ -69,7 +69,7 @@ const dsaPlans = [
         { text: "Advanced Endpoints: Graphs, Dynamic Programming & Trees", included: true },
         { text: "Secure API Token Access Management (Role-Based Access Pipeline)", included: true },
         { text: "Polyglot Snippets: Python 3.10, Java 17, C++20", included: true },
-        { text: "Advanced Internal Endpoint Routing", included: false },
+        { text: "Advanced Internal Endpoint Processing", included: false },
       ],
       communicate: [
         { text: "Email Support Ticket System", included: true },
@@ -93,7 +93,7 @@ const dsaPlans = [
       main: [
         { text: "Unlimited Uncapped Throughput", included: true },
         { text: "Isolated QPS (Enterprise Rate Limits)", included: true },
-        { text: "Advanced Enterprise Gateway Access", included: true },
+        { text: "Advanced Enterprise API Access", included: true },
         { text: "Strict 99.99% Uptime SLA with Financial Backing", included: true },
         { text: "Full Data Structure Suite Included", included: true },
         { text: "Unlimited Algorithmic Performance Sandbox Runs", included: true },
@@ -101,7 +101,7 @@ const dsaPlans = [
         { text: "24/7 Priority Support Engineer Line", included: true },
       ],
       buildWith: [
-        { text: "All Endpoints + Advanced Internal Endpoint Routing", included: true },
+        { text: "All Endpoints + Advanced Internal Endpoint Processing", included: true },
         { text: "Secure API Token Access Management (Role-Based Access Pipeline)", included: true },
         { text: "On-Premise or VPC Deployment Options (AWS / GCP)", included: true },
         { text: "Advanced Deployment Pipeline Support", included: true },

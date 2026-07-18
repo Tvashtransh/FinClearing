@@ -11,7 +11,7 @@ export default function PrivacyPolicy() {
 
         <h3 className="text-xl font-bold text-white mt-8 mb-4">1. Data Collection</h3>
         <p className="mb-6">
-          To provision and manage your account, we collect necessary operational data, including your registered email address and authentication details. We also collect technical logs, such as IP addresses and API request headers, which are strictly necessary to monitor server infrastructure, enforce rate limits, and prevent abuse.
+          To provision and manage your account, we collect necessary operational data, including your registered email address and authentication details. We also collect technical logs, such as IP addresses and API request headers, which are strictly necessary to monitor API health, enforce rate limits, and prevent abuse.
         </p>
         <p className="mb-6">
           Regarding financial data: We process payment authentication tokens routed securely through certified payment processors. <strong>We do NOT store, process, or transmit raw credit card numbers on our servers.</strong>

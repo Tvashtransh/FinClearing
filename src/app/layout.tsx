@@ -13,7 +13,7 @@ const playfairDisplay = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "APIExplore | Enterprise Developer Infrastructure Marketplace",
+  title: "APIExplore | Enterprise Developer API Marketplace",
   description: "Enterprise-grade API packs, routing, and developer endpoints for scaling businesses.",
 };
 

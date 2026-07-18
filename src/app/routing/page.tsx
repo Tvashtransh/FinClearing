@@ -29,10 +29,10 @@ export default function RoutingHub() {
               period=" / yr"
               features={[
                 { text: "Shared SaaS Execution Limits", included: true },
-                { text: "1TB Monthly Egress Bandwidth via Global CDN", included: true },
+                { text: "1TB Monthly Data Routing via Global CDN", included: true },
                 { text: "Automated Daily Database Snapshots (7-Day Retention Vault)", included: true },
                 { text: "Let's Encrypt Wildcard SSL Certificates (Auto-Renewing)", included: true },
-                { text: "99.9% Infrastructure Uptime Guarantee", included: true },
+                { text: "99.9% API Uptime Guarantee", included: true },
                 { text: "Isolated Execution Environment", included: false },
                 { text: "Active-Active Database Replication", included: false },
                 { text: "Dedicated Technical Account Manager", included: false }
@@ -41,7 +41,7 @@ export default function RoutingHub() {
                 title: "Build with:",
                 items: [
                   { text: "Routing Architecture: Shared Execution Pools", included: true },
-                  { text: "Data Egress: Global Edge Network (1TB Cap)", included: true },
+                  { text: "Data Routing: Global Edge Network (1TB Cap)", included: true },
                   { text: "Payload Limits: Standard Validation Quotas", included: true },
                   { text: "Enterprise Rate Limiting Strategy", included: false }
                 ]
@@ -66,11 +66,11 @@ export default function RoutingHub() {
               isPopular={true}
               features={[
                 { text: "Isolated Routing Environment (Mumbai Data Residency)", included: true },
-                { text: "Unlimited Bandwidth (Capped at 10TB Burst Egress)", included: true },
+                { text: "Unlimited Data Routing (Capped at 10TB Burst Routing)", included: true },
                 { text: "Real-Time Active-Active Database Replication Nodes", included: true },
                 { text: "Automated Daily Database Snapshots (Extended Retention Vault)", included: true },
                 { text: "Let's Encrypt Wildcard SSL Certificates (Auto-Renewing)", included: true },
-                { text: "99.95% Infrastructure Uptime Guarantee", included: true },
+                { text: "99.95% API Uptime Guarantee", included: true },
                 { text: "Priority 24/7 DevOps Support via Ticket & Chat", included: true },
                 { text: "Dedicated Routing Endpoints", included: false }
               ]}
@@ -87,7 +87,7 @@ export default function RoutingHub() {
                 title: "Protect & comply:",
                 items: [
                   { text: "Advanced Layer 7 WAF & Cloudflare Enterprise DDoS Protection", included: true },
-                  { text: "Storage Encryption: AES-256 Storage Encryption (RBI Compliant)", included: true },
+                  { text: "Payload Encryption: AES-256 Payload Encryption (RBI Compliant)", included: true },
                   { text: "Data Localization: Fully Compliant with RBI Guidelines", included: true },
                   { text: "SOC2 & ISO 27001 Readiness Reporting", included: false }
                 ]
@@ -101,7 +101,7 @@ export default function RoutingHub() {
               period=""
               features={[
                 { text: "Dedicated Routing Endpoints (Zero Rate-Limit Collisions)", included: true },
-                { text: "Enterprise Egress Bandwidth & Dedicated Fiber Routing", included: true },
+                { text: "Enterprise Data Routing & Dedicated Fiber Links", included: true },
                 { text: "Enterprise Disaster Recovery & Point-In-Time Restore Strategy", included: true },
                 { text: "Real-Time Active-Active Database Clusters with Multi-Region Failover", included: true },
                 { text: "Advanced Web Application Firewall (WAF) & Rate-Limiting Rules", included: true },

@@ -125,7 +125,7 @@ export default function PricingPage() {
           <span className="text-[10px] font-bold text-blue-500 uppercase tracking-[0.3em] block mb-2">Transparent Pricing</span>
           <h1 className="text-4xl md:text-5xl font-extrabold text-white tracking-tight">Choose your scale</h1>
           <p className="text-lg text-zinc-400 font-light leading-relaxed">
-            Technically robust infrastructure and deep API endpoints tailored for serious engineering teams.
+            Technically robust execution limits and deep API endpoints tailored for serious engineering teams.
           </p>
         </div>
 

@@ -32,19 +32,19 @@ export default function Home() {
             title="API Routing" 
             count={24} 
             icon={<Bank weight="duotone" className="h-6 w-6" />} 
-            href="/apis/infrastructure" 
+            href="/apis/routing" 
           />
           <CategoryCard 
             title="Code Execution" 
             count={12} 
             icon={<Fingerprint weight="duotone" className="h-6 w-6" />} 
-            href="/apis/infrastructure" 
+            href="/apis/routing" 
           />
           <CategoryCard 
             title="Data Validation" 
             count={18} 
             icon={<CreditCard weight="duotone" className="h-6 w-6" />} 
-            href="/apis/infrastructure" 
+            href="/apis/routing" 
           />
           <CategoryCard 
             title="AI & Optimization" 
@@ -121,7 +121,7 @@ export default function Home() {
             period=" / yr"
             features={[
               "Shared SaaS Execution Limits",
-              "1TB Data Routing Egress",
+              "1TB Data Routing Quota",
               "Automated Daily Snapshots",
               "99.9% Uptime Guarantee",
               "DDoS Protection"

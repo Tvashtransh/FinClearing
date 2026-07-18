@@ -6,18 +6,18 @@ import { ArrowLeft, CheckCircle, CaretDown, CreditCard } from "@phosphor-icons/r
 
 // Mock Data - In a real app this would be fetched based on ID
 const plansData = {
-  "dsa-base": { name: "DSA Base", type: "DSA API", basePrice: 1499, monthlyStrike: 2999, yearlyPrice: 17988, isHosting: false, features: ["Core Endpoints: Arrays, Strings, Stacks", "Up to 10,000 API Requests/mo", "Multi-language Polyglot Snippets"] },
-  "dsa-scale": { name: "DSA Scale", type: "DSA API", basePrice: 5999, monthlyStrike: 13999, yearlyPrice: 71988, isHosting: false, features: ["Advanced Endpoints Included", "Unlimited API Requests (1M Fair Use)", "Enterprise Access Pipeline"] },
-  "dsa-enterprise": { name: "DSA Enterprise", type: "DSA API", basePrice: 0, isCustom: true, isHosting: false, features: ["Advanced Internal Endpoint Routing", "Strict 99.99% Uptime SLA", "24/7 Dedicated Support Engineer"] },
-  "routing-base": { name: "Developer Plan", type: "API Plan", basePrice: 19000, isHosting: true, features: ["Shared SaaS Execution Limits", "1TB Data Routing Egress", "Algorithmic Validation Basic"] },
-  "routing-pro": { name: "Pro API Plan", type: "API Plan", basePrice: 49000, isHosting: true, features: ["Isolated Execution Environment", "Unlimited Data Routing", "Real-Time Validation Nodes"] },
-  "routing-enterprise": { name: "Enterprise Routing Plan", type: "API Plan", basePrice: 0, isCustom: true, isHosting: true, features: ["Dedicated Routing Endpoints", "Advanced Rate-Limiting Rules", "Strict 99.99% SLA"] }
+  "dsa-base": { name: "DSA Base", type: "DSA API", basePrice: 1499, monthlyStrike: 2999, yearlyPrice: 17988, isRouting: false, features: ["Core Endpoints: Arrays, Strings, Stacks", "Up to 10,000 API Requests/mo", "Multi-language Polyglot Snippets"] },
+  "dsa-scale": { name: "DSA Scale", type: "DSA API", basePrice: 5999, monthlyStrike: 13999, yearlyPrice: 71988, isRouting: false, features: ["Advanced Endpoints Included", "Unlimited API Requests (1M Fair Use)", "Enterprise Access Pipeline"] },
+  "dsa-enterprise": { name: "DSA Enterprise", type: "DSA API", basePrice: 0, isCustom: true, isRouting: false, features: ["Advanced Internal Endpoint Routing", "Strict 99.99% Uptime SLA", "24/7 Dedicated Support Engineer"] },
+  "routing-base": { name: "Developer Plan", type: "API Plan", basePrice: 19000, isRouting: true, features: ["Shared SaaS Execution Limits", "1TB Data Routing Quota", "Algorithmic Validation Basic"] },
+  "routing-pro": { name: "Pro API Plan", type: "API Plan", basePrice: 49000, isRouting: true, features: ["Isolated Execution Environment", "Unlimited Data Routing", "Real-Time Validation Nodes"] },
+  "routing-enterprise": { name: "Enterprise Routing Plan", type: "API Plan", basePrice: 0, isCustom: true, isRouting: true, features: ["Dedicated Routing Endpoints", "Advanced Rate-Limiting Rules", "Strict 99.99% SLA"] }
 };
 
 export default function CheckoutCartPage({ params }: { params: Promise<{ id: string }> }) {
   const resolvedParams = use(params);
   const plan = plansData[resolvedParams.id as keyof typeof plansData];
-  const [period, setPeriod] = useState(plan?.isHosting ? '1y' : '1mo');
+  const [period, setPeriod] = useState(plan?.isRouting ? '1y' : '1mo');
 
   if (!plan) {
     return (
@@ -36,7 +36,7 @@ export default function CheckoutCartPage({ params }: { params: Promise<{ id: str
   let periodLabel = '';
   let perMoLabel = 0;
   
-  if (plan.isHosting) {
+  if (plan.isRouting) {
     if (period === '1y') {
       baseAmount = plan.basePrice;
       strikeAmount = plan.basePrice + 5000;
@@ -119,7 +119,7 @@ export default function CheckoutCartPage({ params }: { params: Promise<{ id: str
                       onChange={(e) => setPeriod(e.target.value)}
                       className="w-full appearance-none bg-zinc-950/80 border border-zinc-800 text-white text-sm font-medium rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:border-blue-500 transition-all"
                     >
-                      {plan.isHosting ? (
+                      {plan.isRouting ? (
                         <>
                           <option value="1y">12 months</option>
                           <option value="2y">24 months</option>

@@ -91,7 +91,7 @@ export default function DocsPage() {
             <h4 className="text-sm font-semibold text-white mt-8 mb-4">HTTP Request</h4>
             <div className="bg-zinc-900 border border-zinc-800 rounded-lg px-4 py-3 font-mono text-sm inline-flex items-center gap-3">
               <span className="text-blue-400 font-bold">POST</span>
-              <span className="text-zinc-300">/infrastructure/execute</span>
+              <span className="text-zinc-300">/routing/execute</span>
             </div>
 
             <h4 className="text-sm font-semibold text-white mt-8 mb-4">Request Payload Body</h4>
@@ -206,7 +206,7 @@ export default function DocsPage() {
                   </tr>
                   <tr className="border-b border-zinc-800/50 hover:bg-zinc-900/30 transition-colors">
                     <td className="py-4 px-4 font-mono text-rose-500">500 Internal Error</td>
-                    <td className="py-4 px-4 text-zinc-300">Server failed to process the request correctly.</td>
+                    <td className="py-4 px-4 text-zinc-300">API failed to process the request correctly.</td>
                     <td className="py-4 px-4 text-zinc-400">Retry request with exponential backoff.</td>
                   </tr>
                 </tbody>
@@ -221,7 +221,7 @@ export default function DocsPage() {
               <Lightning className="w-6 h-6 text-purple-400" /> Webhooks Integration
             </h2>
             <p>
-              Receive real-time notifications about long-running asynchronous jobs. By configuring a webhook URL in your dashboard, you can have apiexplore.shop POST results directly back to your infrastructure once processing is complete.
+              Receive real-time notifications about long-running asynchronous jobs. By configuring a webhook URL in your dashboard, you can have apiexplore.shop POST results directly back to your webhook once processing is complete.
             </p>
             <h4 className="text-sm font-semibold text-white mt-8 mb-4">Webhook Delivery Format</h4>
             <div className="rounded-xl overflow-hidden border border-zinc-800 bg-[#111] shadow-xl">
@@ -267,7 +267,7 @@ export default function DocsPage() {
               <ShieldCheck className="w-6 h-6 text-emerald-400" /> SLA & Compliance
             </h2>
             <p>
-              We stand by our uptime guarantees. All infrastructure deployments are monitored 24/7.
+              We stand by our uptime guarantees. All API endpoints are monitored 24/7.
             </p>
             <ul className="space-y-2 mt-4 text-sm text-zinc-400 list-disc pl-5">
               <li>Base accounts receive a standard 99.9% uptime guarantee.</li>

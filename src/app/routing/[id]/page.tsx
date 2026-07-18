@@ -7,7 +7,7 @@ export default async function RoutingDetails({ params }: { params: Promise<{ id:
   const { id } = await params;
   
   // Simulated data fetch based on ID
-  const routingName = id.replace("hosting-", "").split("-").map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
+  const routingName = id.replace("routing-", "").replace("hosting-", "").split("-").map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
 
   return (
     <div className="bg-brand-obsidian min-h-screen pb-24">

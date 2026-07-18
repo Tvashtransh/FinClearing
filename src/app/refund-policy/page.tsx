@@ -14,9 +14,9 @@ export default function RefundPolicy() {
           You have full control over your subscription. Users may cancel their active monthly or multi-year subscriptions at any time. Cancellations can be executed seamlessly directly through your user dashboard under the "Billing" section, or by submitting a formal cancellation request via email to <strong className="text-emerald-400">support@apiexplore.shop</strong>.
         </p>
 
-        <h3 className="text-xl font-bold text-white mt-8 mb-4">2. AutoPay Termination</h3>
+        <h3 className="text-xl font-bold text-white mt-8 mb-4">2. Subscription Termination</h3>
         <p className="mb-6">
-          Upon successful cancellation of your subscription, the active recurring mandate will be immediately revoked. We guarantee that no further auto-debits will occur in any subsequent billing cycles following your cancellation.
+          Upon successful cancellation of your subscription, the active recurring billing mandate will be immediately terminated. No further subscription charges will occur in any subsequent billing cycles following your cancellation.
         </p>
 
         <h3 className="text-xl font-bold text-white mt-8 mb-4">3. Refund Policy</h3>

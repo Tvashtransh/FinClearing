@@ -26,7 +26,7 @@ export default function TermsAndConditions() {
 
         <h3 className="text-xl font-bold text-white mt-8 mb-4">4. Subscription Billing & Payments</h3>
         <p className="mb-6">
-          apiexplore.shop operates on a recurring subscription model (billed monthly or annually). Payments are processed securely via global merchant of record platforms. By providing your payment information, you authorize apiexplore.shop to establish a recurring mandate to automatically deduct subscription fees according to your selected billing cycle.
+          apiexplore.shop operates on a recurring subscription model (billed monthly or annually). Order processing, billing, and payment processing are handled securely by our designated global Merchant of Record (such as Paddle). By subscribing to a plan, you authorize our Merchant of Record to securely process your payment method and initiate automated recurring charges according to your selected billing cycle until canceled.
         </p>
 
         <h3 className="text-xl font-bold text-white mt-8 mb-4">5. Governing Law</h3>

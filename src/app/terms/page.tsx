@@ -11,7 +11,7 @@ export default function TermsAndConditions() {
 
         <h3 className="text-xl font-bold text-white mt-8 mb-4">1. Services Provided</h3>
         <p className="mb-6">
-          apiexplore.shop provides developers with subscription-based access to proprietary Data Structures & Algorithms (DSA) API endpoints and high-performance server hosting infrastructure. These services are delivered digitally upon successful subscription activation.
+          apiexplore.shop provides developers with subscription-based access to proprietary Data Structures & Algorithms (DSA) API endpoints and high-performance algorithmic execution tiers. These services are delivered digitally upon successful subscription activation.
         </p>
 
         <h3 className="text-xl font-bold text-white mt-8 mb-4">2. Account Security & Responsibilities</h3>

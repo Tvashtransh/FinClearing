@@ -20,7 +20,7 @@ export default function Hero() {
           </h2>
 
           <p className="text-zinc-400 text-lg sm:text-xl font-light leading-relaxed max-w-2xl">
-            Empower your network with production-ready APIs, cloud hosting, and enterprise-grade security. Purpose-built for scaling developers, agile startups, and modern tech products.
+            Empower your network with production-ready APIs, payload routing, and enterprise-grade security. Purpose-built for scaling developers, agile startups, and modern tech products.
           </p>
 
           <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 pt-4">
@@ -28,8 +28,8 @@ export default function Hero() {
               <span>Explore APIs</span>
               <ArrowUpRight weight="duotone" className="h-4 w-4" />
             </Link>
-            <Link href="/hosting" className="px-8 py-4 rounded-xl text-sm font-bold tracking-wider text-zinc-300 hover:text-white bg-zinc-900/60 border border-zinc-800 hover:border-zinc-700 transition-all duration-200 uppercase flex items-center justify-center gap-2">
-              <span>View Hosting Plans</span>
+            <Link href="/routing" className="px-8 py-4 rounded-xl text-sm font-bold tracking-wider text-zinc-300 hover:text-white bg-zinc-900/60 border border-zinc-800 hover:border-zinc-700 transition-all duration-200 uppercase flex items-center justify-center gap-2">
+              <span>View Routing Plans</span>
             </Link>
           </div>
 

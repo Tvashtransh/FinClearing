@@ -82,7 +82,7 @@ export default function ContactUs() {
           <div className="prose prose-invert prose-zinc max-w-none">
             <h2 className="text-2xl font-bold text-white mb-6">Support & Compliance</h2>
             <p className="mb-6 text-sm text-zinc-400 leading-relaxed">
-              <strong>apiexplore.shop</strong> is committed to providing exceptional support for your developer integration and hosting infrastructure needs. If you require assistance with your account, API access, or subscription billing, our dedicated support team is here to help.
+              <strong>apiexplore.shop</strong> is committed to providing exceptional support for your developer integration and API routing needs. If you require assistance with your account, API access, or subscription billing, our dedicated support team is here to help.
             </p>
             
             <h3 className="text-lg font-bold text-white mt-8 mb-4 border-b border-zinc-800 pb-2">Email Support</h3>
@@ -93,7 +93,7 @@ export default function ContactUs() {
             
             <h3 className="text-lg font-bold text-white mt-8 mb-4 border-b border-zinc-800 pb-2">Service Level Agreement (SLA)</h3>
             <p className="mb-6 text-sm text-zinc-400">
-              We value your time. All support queries regarding API endpoints, server hosting infrastructure, or billing mandates will be addressed and resolved within <strong>24 to 48 business hours</strong>.
+              We value your time. All support queries regarding API endpoints, routing execution, or billing mandates will be addressed and resolved within <strong>24 to 48 business hours</strong>.
             </p>
           </div>
             

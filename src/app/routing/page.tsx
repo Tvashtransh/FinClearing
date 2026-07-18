@@ -1,49 +1,49 @@
 import HostingCard from "@/components/ui/HostingCard";
 
-export default function HostingHub() {
+export default function RoutingHub() {
   return (
     <div className="bg-brand-obsidian min-h-screen pt-12 pb-24">
       <div className="max-w-7xl mx-auto px-6">
         
         {/* Header Section */}
         <div className="mb-16 border-b border-zinc-900 pb-12 text-center max-w-3xl mx-auto">
-          <span className="text-[10px] font-bold text-blue-500 uppercase tracking-[0.3em] block mb-4">Enterprise Infrastructure</span>
-          <h1 className="text-4xl md:text-5xl font-extrabold text-white tracking-tight mb-6">Hosting & Compute</h1>
+          <span className="text-[10px] font-bold text-blue-500 uppercase tracking-[0.3em] block mb-4">Data Routing Endpoints</span>
+          <h1 className="text-4xl md:text-5xl font-extrabold text-white tracking-tight mb-6">API Execution Tiers</h1>
           <p className="text-lg text-zinc-400 font-light">
-            Deploy your backend services, databases, and API gateways on our globally distributed, SOC2 compliant cloud infrastructure.
+            Scale your applications with our globally distributed API routing and algorithmic validation endpoints.
           </p>
         </div>
 
-        {/* ── HOSTING PLANS ─────────────────────────────────────────────────── */}
+        {/* ── ROUTING PLANS ─────────────────────────────────────────────────── */}
         <div className="mb-24">
           <div className="flex items-center gap-4 mb-8">
-            <h2 className="text-2xl font-bold text-white">Hosting Plans</h2>
+            <h2 className="text-2xl font-bold text-white">API Routing Plans</h2>
             <div className="h-px flex-1 bg-zinc-900"></div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <HostingCard 
-              title="Hosting Base"
-              description="Get your infrastructure online. Best for early-stage DSA tools and lightweight validation workloads."
+              title="Developer Plan"
+              description="Start routing data. Best for early-stage DSA tools and lightweight validation workloads."
               strikePrice="₹24,000"
               price="₹19,000"
               period=" / yr"
               features={[
-                { text: "Shared Containerized Pods (Isolated Resource Quotas)", included: true },
+                { text: "Shared SaaS Execution Limits", included: true },
                 { text: "1TB Monthly Egress Bandwidth via Global CDN", included: true },
                 { text: "Automated Daily Database Snapshots (7-Day Retention Vault)", included: true },
                 { text: "Let's Encrypt Wildcard SSL Certificates (Auto-Renewing)", included: true },
                 { text: "99.9% Infrastructure Uptime Guarantee", included: true },
-                { text: "Isolated Mumbai Region VPS", included: false },
+                { text: "Isolated Execution Environment", included: false },
                 { text: "Active-Active Database Replication", included: false },
                 { text: "Dedicated Technical Account Manager", included: false }
               ]}
               section2={{
                 title: "Build with:",
                 items: [
-                  { text: "Container Architecture: Shared Docker / Kubernetes Pods", included: true },
-                  { text: "CDN & Egress: Global Edge Network (1TB Cap)", included: true },
-                  { text: "Storage: Standard NVMe SSD Quotas", included: true },
-                  { text: "Enterprise Disaster Recovery Strategy", included: false }
+                  { text: "Routing Architecture: Shared Execution Pools", included: true },
+                  { text: "Data Egress: Global Edge Network (1TB Cap)", included: true },
+                  { text: "Payload Limits: Standard Validation Quotas", included: true },
+                  { text: "Enterprise Rate Limiting Strategy", included: false }
                 ]
               }}
               section3={{
@@ -55,31 +55,31 @@ export default function HostingHub() {
                   { text: "SOC2 & ISO 27001 Readiness Reporting", included: false }
                 ]
               }}
-              href="/pricing/hosting-base?term=1y"
+              href="/pricing/routing-base?term=1y"
             />
             <HostingCard 
-              title="Hosting Pro"
-              description="Run mission-critical financial workloads smoothly. Great for scaling DSA platforms needing RBI compliance."
+              title="Pro API Plan"
+              description="Route mission-critical data payloads smoothly. Great for scaling DSA platforms needing RBI compliance."
               strikePrice="₹59,000"
               price="₹49,000"
               period=" / yr"
               isPopular={true}
               features={[
-                { text: "Isolated Mumbai Region VPS (AWS / GCP Data Residency)", included: true },
+                { text: "Isolated Routing Environment (Mumbai Data Residency)", included: true },
                 { text: "Unlimited Bandwidth (Capped at 10TB Burst Egress)", included: true },
                 { text: "Real-Time Active-Active Database Replication Nodes", included: true },
                 { text: "Automated Daily Database Snapshots (Extended Retention Vault)", included: true },
                 { text: "Let's Encrypt Wildcard SSL Certificates (Auto-Renewing)", included: true },
                 { text: "99.95% Infrastructure Uptime Guarantee", included: true },
                 { text: "Priority 24/7 DevOps Support via Ticket & Chat", included: true },
-                { text: "Physically Isolated Bare-Metal Environments", included: false }
+                { text: "Dedicated Routing Endpoints", included: false }
               ]}
               section2={{
                 title: "Build with:",
                 items: [
-                  { text: "Compute Architecture: Dedicated Virtual Private Server (VPS)", included: true },
-                  { text: "Database Engine: Real-Time Active-Active Replication Nodes", included: true },
-                  { text: "Cloud Residency: Mumbai Region (AWS / GCP Tier-1 DCs)", included: true },
+                  { text: "Routing Architecture: Isolated Validation Environment", included: true },
+                  { text: "Execution Engine: Real-Time Algorithmic Processors", included: true },
+                  { text: "Data Residency: Mumbai Region Logging", included: true },
                   { text: "Enterprise Disaster Recovery Strategy", included: false }
                 ]
               }}
@@ -92,15 +92,15 @@ export default function HostingHub() {
                   { text: "SOC2 & ISO 27001 Readiness Reporting", included: false }
                 ]
               }}
-              href="/pricing/hosting-pro?term=1y"
+              href="/pricing/routing-pro?term=1y"
             />
             <HostingCard 
-              title="Hosting Enterprise"
+              title="Enterprise Routing Plan"
               description="Maximum isolation, zero noisy neighbors, and enterprise SLA backing for large-scale financial institutions."
               price="Enterprise"
               period=""
               features={[
-                { text: "Physically Isolated Bare-Metal Environments (Zero Noisy Neighbors)", included: true },
+                { text: "Dedicated Routing Endpoints (Zero Rate-Limit Collisions)", included: true },
                 { text: "Enterprise Egress Bandwidth & Dedicated Fiber Routing", included: true },
                 { text: "Enterprise Disaster Recovery & Point-In-Time Restore Strategy", included: true },
                 { text: "Real-Time Active-Active Database Clusters with Multi-Region Failover", included: true },
@@ -111,10 +111,10 @@ export default function HostingHub() {
               section2={{
                 title: "Build with:",
                 items: [
-                  { text: "Compute Architecture: Physically Isolated Bare-Metal Servers", included: true },
-                  { text: "Disaster Recovery: Enterprise Point-In-Time Restore Strategy", included: true },
-                  { text: "Hybrid / On-Premise: Enterprise VPC / Dedicated Cloud Interconnects", included: true },
-                  { text: "Advanced Automation: Tailored CI/CD Pipeline & Architecture Setup", included: true }
+                  { text: "Routing Architecture: Dedicated API Endpoints", included: true },
+                  { text: "Disaster Recovery: Enterprise Point-In-Time Log Restore", included: true },
+                  { text: "Hybrid Routing: Enterprise VPC Interconnects", included: true },
+                  { text: "Advanced Automation: Tailored CI/CD Validation Pipeline", included: true }
                 ]
               }}
               section3={{
@@ -131,33 +131,33 @@ export default function HostingHub() {
           </div>
         </div>
 
-        {/* ── DEDICATED SERVERS ────────────────────────────────────────────── */}
+        {/* ── HIGH VOLUME DATA ENDPOINTS ────────────────────────────────────────────── */}
         <div>
           <div className="flex items-center gap-4 mb-8">
-            <h2 className="text-2xl font-bold text-white">Dedicated Bare Metal</h2>
+            <h2 className="text-2xl font-bold text-white">High-Volume Data Endpoints</h2>
             <div className="h-px flex-1 bg-zinc-900"></div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <HostingCard 
-              title="DB Node"
-              description="Optimized for high-IOPS database hosting."
+              title="High-IOPS Validation Tier"
+              description="Optimized for high-throughput payload validation."
               price="Enterprise"
-              features={["32 Core AMD EPYC", "128GB ECC RAM", "2TB NVMe Raid 1", "SOC2 Compliance Certs"]}
+              features={["32K Requests/sec", "Enterprise Rate Limits", "Custom Routing Logic", "SOC2 Compliance Certs"]}
               href="/contact"
             />
             <HostingCard 
-              title="GPU Cluster"
-              description="AI model inference and training nodes."
+              title="AI Routing Cluster"
+              description="Advanced LLM routing and validation endpoints."
               price="Enterprise"
               isPopular={true}
-              features={["Dual NVIDIA A100", "256GB ECC RAM", "4TB NVMe SSD", "100Gbps Internal Network"]}
+              features={["Advanced LLM Endpoints", "High-Volume Validation", "Custom Execution Sandbox", "100Gbps Internal Routing"]}
               href="/contact"
             />
             <HostingCard 
-              title="Enterprise Vault"
-              description="Physically isolated hardware for financial ledgers."
+              title="Secure Vault Endpoints"
+              description="Isolated compliance routing for financial payloads."
               price="Enterprise"
-              features={["Advanced CPU config", "Hardware Security Module", "Private Cage", "24/7 On-site Hands"]}
+              features={["Isolated Compliance Routing", "Private API Cage", "Dedicated Network Link", "24/7 Premium Support"]}
               href="/enterprise/contact"
             />
           </div>

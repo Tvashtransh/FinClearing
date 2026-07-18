@@ -16,4 +16,4 @@ Content-Type: application/json
 ```
 
 ## Environment Status
-Your dedicated cloud environment is being provisioned. Your active gateway keys and node credentials will automatically sync to your dashboard within 60 minutes.
+Your dedicated routing endpoints are being provisioned. Your active gateway keys will automatically sync to your dashboard within 60 minutes.

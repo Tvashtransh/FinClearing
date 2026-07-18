@@ -9,9 +9,9 @@ const plansData = {
   "dsa-base": { name: "DSA Base", type: "DSA API", basePrice: 1499, monthlyStrike: 2999, yearlyPrice: 17988, isHosting: false, features: ["Core Endpoints: Arrays, Strings, Stacks", "Up to 10,000 API Requests/mo", "Multi-language Polyglot Snippets"] },
   "dsa-scale": { name: "DSA Scale", type: "DSA API", basePrice: 5999, monthlyStrike: 13999, yearlyPrice: 71988, isHosting: false, features: ["Advanced Endpoints Included", "Unlimited API Requests (1M Fair Use)", "Enterprise Access Pipeline"] },
   "dsa-enterprise": { name: "DSA Enterprise", type: "DSA API", basePrice: 0, isCustom: true, isHosting: false, features: ["Advanced Internal Endpoint Routing", "Strict 99.99% Uptime SLA", "24/7 Dedicated Support Engineer"] },
-  "hosting-base": { name: "Hosting Base", type: "Hosting", basePrice: 19000, isHosting: true, features: ["Shared Containerized Pods", "1TB Monthly Egress Bandwidth", "Automated Daily Database Snapshots"] },
-  "hosting-pro": { name: "Hosting Pro", type: "Hosting", basePrice: 49000, isHosting: true, features: ["Isolated Mumbai Region VPS", "Unlimited Bandwidth (Capped at 10TB)", "Real-Time Active-Active Database Replication"] },
-  "hosting-enterprise": { name: "Hosting Enterprise", type: "Hosting", basePrice: 0, isCustom: true, isHosting: true, features: ["Physically Isolated Bare-Metal Environments", "Advanced Web Application Firewall (WAF)", "Strict 99.99% Uptime SLA"] }
+  "routing-base": { name: "Developer Plan", type: "API Plan", basePrice: 19000, isHosting: true, features: ["Shared SaaS Execution Limits", "1TB Data Routing Egress", "Algorithmic Validation Basic"] },
+  "routing-pro": { name: "Pro API Plan", type: "API Plan", basePrice: 49000, isHosting: true, features: ["Isolated Execution Environment", "Unlimited Data Routing", "Real-Time Validation Nodes"] },
+  "routing-enterprise": { name: "Enterprise Routing Plan", type: "API Plan", basePrice: 0, isCustom: true, isHosting: true, features: ["Dedicated Routing Endpoints", "Advanced Rate-Limiting Rules", "Strict 99.99% SLA"] }
 };
 
 export default function CheckoutCartPage({ params }: { params: Promise<{ id: string }> }) {

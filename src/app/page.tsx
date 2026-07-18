@@ -29,7 +29,7 @@ export default function Home() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           <CategoryCard 
-            title="Cloud Infrastructure" 
+            title="API Routing" 
             count={24} 
             icon={<Bank weight="duotone" className="h-6 w-6" />} 
             href="/apis/infrastructure" 
@@ -66,7 +66,7 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
             <APICard 
               name="Code Execution Engine"
-              category="Infrastructure"
+              category="Routing"
               description="Secure, isolated sandboxed runtime environment to compile and execute user code snippets across 15+ programming languages."
               responseTime="320ms"
               successRate="99.95%"
@@ -86,7 +86,7 @@ export default function Home() {
             />
             <APICard 
               name="Payload Guard"
-              category="Infrastructure"
+              category="Validation"
               description="High-speed data structure checking engine validating heavily nested JSON structures against pre-defined strict developer schemas."
               responseTime="15ms"
               successRate="99.99%"
@@ -98,63 +98,63 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── HOSTING PLANS ─────────────────────────────────────────────────── */}
+      {/* ── ROUTING PLANS ─────────────────────────────────────────────────── */}
       <section className="py-24 max-w-7xl mx-auto px-6 relative overflow-hidden">
         {/* Background Gradients */}
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] max-w-[100vw] bg-blue-900/10 rounded-full blur-[120px] pointer-events-none -z-10"></div>
         
         <div className="text-center space-y-4 max-w-2xl mx-auto mb-16">
-          <span className="text-[10px] font-bold text-blue-500 uppercase tracking-[0.3em] block">Cloud Infrastructure</span>
+          <span className="text-[10px] font-bold text-blue-500 uppercase tracking-[0.3em] block">API Routing & Execution</span>
           <h3 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight leading-none">
-            Hosting Built for Developers
+            API Tiers Built for Developers
           </h3>
           <p className="text-zinc-400 font-light leading-relaxed">
-            Deploy your API gateways, webhooks, and backend services on our enterprise-grade isolated shards.
+            Execute your algorithmic workloads and route payloads securely with our enterprise-grade execution limits.
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <HostingCard 
-            title="Hosting Base"
+            title="Developer Plan"
             description="Best for early-stage DSA tools and lightweight validation workloads."
             price="₹19,000"
             period=" / yr"
             features={[
-              "Shared Containerized Pods",
-              "1TB Monthly Egress Bandwidth",
+              "Shared SaaS Execution Limits",
+              "1TB Data Routing Egress",
               "Automated Daily Snapshots",
               "99.9% Uptime Guarantee",
               "DDoS Protection"
             ]}
-            href="/hosting"
+            href="/routing"
           />
           <HostingCard 
-            title="Hosting Pro"
+            title="Pro API Plan"
             description="Great for scaling platforms needing full compliance and stability."
             price="₹49,000"
             period=" / yr"
             isPopular={true}
             features={[
-              "Isolated Mumbai Region VPS",
-              "Unlimited Bandwidth",
-              "Real-Time Node Replication",
+              "Isolated Execution Environment",
+              "Unlimited Data Routing",
+              "Real-Time Validation Nodes",
               "99.95% Uptime Guarantee",
               "Priority 24/7 Support"
             ]}
-            href="/hosting"
+            href="/routing"
           />
           <HostingCard 
-            title="Hosting Enterprise"
+            title="Enterprise Routing Plan"
             description="Maximum isolation and enterprise SLA backing for large-scale operations."
             price="Enterprise"
             features={[
-              "Dedicated Bare-Metal Nodes",
-              "Enterprise Network Topology",
-              "Zero Noisy Neighbors",
+              "Dedicated Routing Endpoints",
+              "Advanced Rate-Limiting Rules",
+              "Strict 99.99% SLA",
               "Dedicated Account Manager",
               "On-Premise Deployment Options"
             ]}
-            href="/hosting"
+            href="/contact"
           />
         </div>
       </section>
@@ -171,7 +171,7 @@ export default function Home() {
             features={[
               {
                 title: "99.99% Uptime SLA",
-                description: "Financially backed SLAs ensure your infrastructure never goes down during peak traffic.",
+                description: "Financially backed SLAs ensure your platform never goes down during peak traffic.",
                 icon: <Pulse weight="duotone" className="h-6 w-6" />
               },
               {
@@ -185,7 +185,7 @@ export default function Home() {
                 icon: <Shield weight="duotone" className="h-6 w-6" />
               },
               {
-                title: "Scalable Infrastructure",
+                title: "Scalable Execution",
                 description: "Auto-scale from zero to millions of requests without manual intervention.",
                 icon: <Rocket weight="duotone" className="h-6 w-6" />
               }
@@ -201,7 +201,7 @@ export default function Home() {
         
         <div className="max-w-4xl mx-auto px-6 text-center relative z-10">
           <h2 className="text-4xl sm:text-5xl font-extrabold text-white tracking-tight mb-6">
-            Ready to scale your API infrastructure?
+            Ready to scale your API execution?
           </h2>
           <p className="text-lg text-zinc-400 font-light mb-10 max-w-2xl mx-auto">
             Join thousands of developers building the next generation of financial and enterprise applications on APIExplore.

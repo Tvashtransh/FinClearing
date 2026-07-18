@@ -35,7 +35,7 @@ export default function RoutingHub() {
                 { text: "99.9% API Uptime Guarantee", included: true },
                 { text: "Isolated Execution Environment", included: false },
                 { text: "Active-Active Database Replication", included: false },
-                { text: "Dedicated Technical Account Manager", included: false }
+                { text: "Priority Technical Account Support", included: false }
               ]}
               section2={{
                 title: "Build with:",
@@ -72,7 +72,7 @@ export default function RoutingHub() {
                 { text: "Let's Encrypt Wildcard SSL Certificates (Auto-Renewing)", included: true },
                 { text: "99.95% API Uptime Guarantee", included: true },
                 { text: "Priority 24/7 DevOps Support via Ticket & Chat", included: true },
-                { text: "Dedicated Routing Endpoints", included: false }
+                { text: "Isolated Routing Endpoints", included: false }
               ]}
               section2={{
                 title: "Build with:",
@@ -100,18 +100,18 @@ export default function RoutingHub() {
               price="Enterprise"
               period=""
               features={[
-                { text: "Dedicated Routing Endpoints (Zero Rate-Limit Collisions)", included: true },
-                { text: "Enterprise Data Routing & Dedicated Fiber Links", included: true },
+                { text: "Isolated Routing Endpoints (Zero Rate-Limit Collisions)", included: true },
+                { text: "Enterprise Data Routing & Priority Fiber Links", included: true },
                 { text: "Enterprise Disaster Recovery & Point-In-Time Restore Strategy", included: true },
                 { text: "Real-Time Active-Active Database Clusters with Multi-Region Failover", included: true },
                 { text: "Advanced Web Application Firewall (WAF) & Rate-Limiting Rules", included: true },
                 { text: "Strict 99.99% Uptime SLA with Financial Backing", included: true },
-                { text: "Dedicated Technical Account Manager (TAM)", included: true }
+                { text: "Priority Technical Account Support (TAM)", included: true }
               ]}
               section2={{
                 title: "Build with:",
                 items: [
-                  { text: "Routing Architecture: Dedicated API Endpoints", included: true },
+                  { text: "Routing Architecture: Isolated API Endpoints", included: true },
                   { text: "Disaster Recovery: Enterprise Point-In-Time Log Restore", included: true },
                   { text: "Hybrid Routing: Enterprise VPC Interconnects", included: true },
                   { text: "Advanced Automation: Tailored CI/CD Validation Pipeline", included: true }
@@ -123,7 +123,7 @@ export default function RoutingHub() {
                   { text: "Enterprise Security: Advanced WAF & Granular Rate-Limiting Rules", included: true },
                   { text: "Compliance Reporting: SOC2 Type II & ISO 27001 Readiness", included: true },
                   { text: "Data Localization: 100% RBI Compliant AES-256 Encryption", included: true },
-                  { text: "Dedicated Support: 24/7 Dedicated TAM via Direct Phone & Slack", included: true }
+                  { text: "Priority Support: 24/7 Priority TAM via Direct Phone & Slack", included: true }
                 ]
               }}
               href="/contact"
@@ -157,7 +157,7 @@ export default function RoutingHub() {
               title="Secure Vault Endpoints"
               description="Isolated compliance routing for financial payloads."
               price="Enterprise"
-              features={["Isolated Compliance Routing", "Private API Cage", "Dedicated Network Link", "24/7 Premium Support"]}
+              features={["Isolated Compliance Routing", "Private API Cage", "Priority Network Link", "24/7 Premium Support"]}
               href="/enterprise/contact"
             />
           </div>

@@ -148,10 +148,10 @@ export default function Home() {
             description="Maximum isolation and enterprise SLA backing for large-scale operations."
             price="Enterprise"
             features={[
-              "Dedicated Routing Endpoints",
-              "Advanced Rate-Limiting Rules",
-              "Strict 99.99% SLA",
-              "Dedicated Account Manager",
+              "Isolated Routing Endpoints",
+              "Advanced Rate-Limiting",
+              "Priority Account Support",
+              "Enterprise Account Support",
               "On-Premise Deployment Options"
             ]}
             href="/contact"

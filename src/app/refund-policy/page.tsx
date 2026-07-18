@@ -6,7 +6,7 @@ export default function RefundPolicy() {
       <div className="max-w-3xl mx-auto px-6 prose prose-invert prose-zinc">
         <h1 className="text-4xl font-extrabold text-white mb-8">REFUND & CANCELLATION POLICY</h1>
         <p className="mb-6">
-          At <strong>apiexplore.shop</strong>, our services involve the instant digital provisioning of API access and dedicated algorithmic resources. Due to the immediate and intangible nature of these digital developer products, we enforce a strict refund and cancellation framework.
+          At <strong>apiexplore.shop</strong>, our services involve the instant digital provisioning of API access and assigned algorithmic resources. Due to the immediate and intangible nature of these digital developer products, we enforce a strict refund and cancellation framework.
         </p>
 
         <h3 className="text-xl font-bold text-white mt-8 mb-4">1. Cancellation Policy</h3>

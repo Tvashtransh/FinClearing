@@ -83,7 +83,7 @@ const dsaPlans = [
     title: "DSA Enterprise",
     icon: "🏢",
     badge: "Enterprise Offer",
-    description: "Dedicated scale and absolute throughput for enterprise-grade applications and production systems.",
+    description: "Isolated scale and absolute throughput for enterprise-grade applications and production systems.",
     isCustom: true,
     price: {
       customLabel: "Enterprise Pricing",
@@ -92,13 +92,13 @@ const dsaPlans = [
     features: {
       main: [
         { text: "Unlimited Uncapped Throughput", included: true },
-        { text: "Dedicated QPS (Enterprise Rate Limits)", included: true },
+        { text: "Isolated QPS (Enterprise Rate Limits)", included: true },
         { text: "Advanced Enterprise Gateway Access", included: true },
         { text: "Strict 99.99% Uptime SLA with Financial Backing", included: true },
         { text: "Full Data Structure Suite Included", included: true },
         { text: "Unlimited Algorithmic Performance Sandbox Runs", included: true },
         { text: "Automated Time & Space Complexity Analyzer", included: true },
-        { text: "24/7 Dedicated Support Engineer Line", included: true },
+        { text: "24/7 Priority Support Engineer Line", included: true },
       ],
       buildWith: [
         { text: "All Endpoints + Advanced Internal Endpoint Routing", included: true },
@@ -107,7 +107,7 @@ const dsaPlans = [
         { text: "Advanced Deployment Pipeline Support", included: true },
       ],
       communicate: [
-        { text: "24/7 Phone Support via Dedicated Direct Line", included: true },
+        { text: "24/7 Phone Support via Priority Direct Line", included: true },
         { text: "Priority Slack Connect Channel", included: true },
         { text: "Advanced Webhook Notification Pipelines (Includes 1,500 Alerts)", included: true },
       ]

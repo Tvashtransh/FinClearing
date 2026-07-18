@@ -8,10 +8,10 @@ import { ArrowLeft, CheckCircle, CaretDown, CreditCard } from "@phosphor-icons/r
 const plansData = {
   "dsa-base": { name: "DSA Base", type: "DSA API", basePrice: 1499, monthlyStrike: 2999, yearlyPrice: 17988, isRouting: false, features: ["Core Endpoints: Arrays, Strings, Stacks", "Up to 10,000 API Requests/mo", "Multi-language Polyglot Snippets"] },
   "dsa-scale": { name: "DSA Scale", type: "DSA API", basePrice: 5999, monthlyStrike: 13999, yearlyPrice: 71988, isRouting: false, features: ["Advanced Endpoints Included", "Unlimited API Requests (1M Fair Use)", "Enterprise Access Pipeline"] },
-  "dsa-enterprise": { name: "DSA Enterprise", type: "DSA API", basePrice: 0, isCustom: true, isRouting: false, features: ["Advanced Internal Endpoint Routing", "Strict 99.99% Uptime SLA", "24/7 Dedicated Support Engineer"] },
+  "dsa-enterprise": { name: "DSA Enterprise", type: "DSA API", basePrice: 0, isCustom: true, isRouting: false, features: ["Advanced Internal Endpoint Routing", "Strict 99.99% Uptime SLA", "24/7 Priority Support Engineer"] },
   "routing-base": { name: "Developer Plan", type: "API Plan", basePrice: 19000, isRouting: true, features: ["Shared SaaS Execution Limits", "1TB Data Routing Quota", "Algorithmic Validation Basic"] },
   "routing-pro": { name: "Pro API Plan", type: "API Plan", basePrice: 49000, isRouting: true, features: ["Isolated Execution Environment", "Unlimited Data Routing", "Real-Time Validation Nodes"] },
-  "routing-enterprise": { name: "Enterprise Routing Plan", type: "API Plan", basePrice: 0, isCustom: true, isRouting: true, features: ["Dedicated Routing Endpoints", "Advanced Rate-Limiting Rules", "Strict 99.99% SLA"] }
+  "routing-enterprise": { name: "Enterprise Routing Plan", type: "API Plan", basePrice: 0, isCustom: true, isRouting: true, features: ["Isolated Routing Endpoints", "Advanced Rate-Limiting Rules", "Strict 99.99% SLA"] }
 };
 
 export default function CheckoutCartPage({ params }: { params: Promise<{ id: string }> }) {

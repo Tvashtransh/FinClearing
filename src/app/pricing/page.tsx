@@ -12,10 +12,10 @@ const dsaPlans = [
     description: "Get your firm started. Best for standalone developers or simple validation pipelines.",
     isCustom: false,
     price: {
-      monthly: 1499,
+      monthly: 1999,
       monthlyStrike: 2999,
-      yearly: 17988,
-      yearlyRenewsAt: 1499
+      yearly: 23988,
+      yearlyRenewsAt: 1999
     },
     features: {
       main: [
@@ -49,10 +49,10 @@ const dsaPlans = [
     description: "Run operations smoothly. Great for growing firms and data-heavy verification workflows.",
     isCustom: false,
     price: {
-      monthly: 5999,
+      monthly: 2999,
       monthlyStrike: 13999,
-      yearly: 71988,
-      yearlyRenewsAt: 7999
+      yearly: 35988,
+      yearlyRenewsAt: 2999
     },
     features: {
       main: [
@@ -103,7 +103,7 @@ const dsaPlans = [
       buildWith: [
         { text: "All Endpoints + Advanced Internal Endpoint Processing", included: true },
         { text: "Secure API Token Access Management (Role-Based Access Pipeline)", included: true },
-        { text: "On-Premise or VPC Deployment Options (AWS / GCP)", included: true },
+        { text: "Dedicated Cloud Routing: AWS/GCP VPC Peering and Isolated Endpoint Pipelines", included: true },
         { text: "Advanced Deployment Pipeline Support", included: true },
       ],
       communicate: [

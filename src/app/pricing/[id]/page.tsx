@@ -6,8 +6,8 @@ import { ArrowLeft, CheckCircle, CaretDown, CreditCard } from "@phosphor-icons/r
 
 // Mock Data - In a real app this would be fetched based on ID
 const plansData = {
-  "dsa-base": { name: "DSA Base", type: "DSA API", basePrice: 1499, monthlyStrike: 2999, yearlyPrice: 17988, isEndpoints: false, features: ["Core Endpoints: Arrays, Strings, Stacks", "Up to 10,000 API Requests/mo", "Multi-language Polyglot Snippets"] },
-  "dsa-scale": { name: "DSA Scale", type: "DSA API", basePrice: 5999, monthlyStrike: 13999, yearlyPrice: 71988, isEndpoints: false, features: ["Advanced Endpoints Included", "Unlimited API Requests (1M Fair Use)", "Enterprise Access Pipeline"] },
+  "dsa-base": { name: "DSA Base", type: "DSA API", basePrice: 1999, monthlyStrike: 2999, yearlyPrice: 23988, isEndpoints: false, features: ["Core Endpoints: Arrays, Strings, Stacks", "Up to 10,000 API Requests/mo", "Multi-language Polyglot Snippets"] },
+  "dsa-scale": { name: "DSA Scale", type: "DSA API", basePrice: 2999, monthlyStrike: 13999, yearlyPrice: 35988, isEndpoints: false, features: ["Advanced Endpoints Included", "Unlimited API Requests (1M Fair Use)", "Enterprise Access Pipeline"] },
   "dsa-enterprise": { name: "DSA Enterprise", type: "DSA API", basePrice: 0, isCustom: true, isEndpoints: false, features: ["Advanced Internal Endpoint Processing", "Strict 99.99% Uptime SLA", "24/7 Priority Support Engineer"] },
   "endpoints-base": { name: "Developer Plan", type: "API Plan", basePrice: 19000, isEndpoints: true, features: ["Shared SaaS Execution Limits", "1TB Algorithmic Validation Quota", "Algorithmic Validation Basic"] },
   "endpoints-pro": { name: "Pro API Plan", type: "API Plan", basePrice: 49000, isEndpoints: true, features: ["Isolated Execution Environment", "Unlimited Algorithmic Validation", "Real-Time Validation Nodes"] },

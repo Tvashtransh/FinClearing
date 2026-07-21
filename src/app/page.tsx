@@ -152,7 +152,7 @@ export default function Home() {
               "Advanced Rate-Limiting",
               "Priority Account Support",
               "Enterprise Account Support",
-              "On-Premise Deployment Options"
+              "Dedicated Cloud Routing: AWS/GCP VPC Peering"
             ]}
             href="/contact"
           />
